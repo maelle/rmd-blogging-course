@@ -1,0 +1,42 @@
+---
+outputs:
+- Reveal
+title: Another deck
+hidden: true
+layout: list
+weight: 1
+reveal_hugo:
+  theme: "solarized"
+  margin: 0.2
+output: hugodown::md_document
+---
+
+# downlit
+
+---
+
+```{r}
+library("magick")
+channel_types()
+```
+
+```r
+library("magick")
+channel_types()
+```
+
+---
+
+To create a reveal-hugo presentation from the `index.md` file of a leaf page bundle, you need to specify the layout manually.
+
+```toml
+layout = "bundle"
+```
+
+---
+
+Why? By default, reveal-hugo doesn't create pages for single template types (foo.md), only for list template types (_index.md).
+
+---
+
+This technique can also be used to output an HTML file for any section of a presentation, should you need to.
