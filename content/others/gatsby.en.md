@@ -18,7 +18,9 @@ introduced in the blog post [From R to Gatsby](https://www.robertmylesmcdonnell.
 Example of other websites:
 
 * [ggplot2tor](https://ggplot2tor.com/)
+
 * [Krist Wongsuphasawat's website](https://kristw.yellowpigz.com/)
+
 * [openFDA](https://open.fda.gov/), [source](https://github.com/FDA/open.fda.gov)
 
 Not R related but interesting read: [Migrating to Gatsby](https://czep.net/20/gatsby-migration.html) by Scott Czepiel.
