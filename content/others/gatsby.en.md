@@ -1,10 +1,7 @@
 ---
 title: Gatsby
 weight: 5
-chapter: true
 ---
-
-# Gatsby
 
 Hugo is powered by Go, Jekyll by Ruby, [Gatsby](https://www.gatsbyjs.org/) by React.
 Gatsby lets you use GraphQL to flexibly render your content (a special listing page for instance).
