@@ -3,7 +3,7 @@ title: dev.to
 weight: 5
 ---
 
-Some folks with a blog use [dev.to](https://dev.to/) to _repost_ their content from their RSS feed.
+[Some](https://twitter.com/_ColinFay/status/1260580782181056514) [folks](https://twitter.com/juliasilge/status/1260580363971317765) with a blog use [dev.to](https://dev.to/) to _repost_ their content from their RSS feed.
 
 You could also use your dev.to profile as your only medium!
 
