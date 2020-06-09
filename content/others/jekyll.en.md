@@ -7,5 +7,5 @@ Use [Jekyll](https://jekyllrb.com/) if you use Ruby a lot: this way you might li
 by the installation of gems.
 
 {{% notice info %}}
-Documentation of [Jekyll support in the `blogdown` package](https://bookdown.org/yihui/blogdown/jekyll.html).
+Documentation of [Jekyll support in the blogdown package](https://bookdown.org/yihui/blogdown/jekyll.html).
 {{% /notice %}}
