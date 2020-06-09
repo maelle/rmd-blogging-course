@@ -1,7 +1,7 @@
 baseURL = "https://test-course-site.netlify.app/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
-title = "My New Hugo Course Site"
+title = "Scientific Rmd Blogging"
 enableEmoji = true
 pygmentsUseClasses=true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "index\\.html", '\.knit\.md$', '\.utf8\.md$']
@@ -23,7 +23,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "Documentation for Hugo Learn Theme"
+title = "Scientific Rmd Blogging"
 weight = 1
 languageName = "English"
 

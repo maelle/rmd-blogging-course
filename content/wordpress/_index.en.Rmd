@@ -1,28 +1,9 @@
 ---
-title: Advanced
-weight: 10
+title: Wordpress
+weight: 4
 chapter: true
 slides: true
 output: hugodown::md_document
 ---
 
-# Advanced
-
-Yay so we can use R Markdown.
-
-```{r}
-tibble::tibble(a = c(1, 2))
-```
-
-or
-
-```{r}
-library("tibble")
-tibble(a = c(1, 2))
-```
-
-Chroma no downlit
-
-```r
-tibble::tibble(a = c(1, 2))
-```
+What if you have to or want to use Wordpress?

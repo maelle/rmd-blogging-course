@@ -1,7 +1,7 @@
 ---
 outputs:
 - Reveal
-title: A cool slidedeck
+title: Scientific R Markdown blog?
 hidden: true
 layout: list
 weight: 1
@@ -10,26 +10,44 @@ reveal_hugo:
   margin: 0.2
 ---
 
-# Page Bundles
+# WHAT is is a scientific Rmd blog?
 
 ---
 
-[Hugo page bundles](https://gohugo.io/content-management/page-bundles/) are a useful way to organize content.
+IMHO :smile_cat:
 
-:rocket:
-
----
-
-To create a reveal-hugo presentation from the `index.md` file of a leaf page bundle, you need to specify the layout manually.
-
-```toml
-layout = "bundle"
-```
+I'll list criteria so we have something to compare our adventures to.
 
 ---
 
-Why? By default, reveal-hugo doesn't create pages for single template types (foo.md), only for list template types (_index.md).
+# Tech part
+
+* Easy way to update from Rmd w/o too much copy-pasting
+
+* Fits into your existing workflow or uses things you want to learn and invest time in
+
+* Ability to show code, with code highlighting
+
+* Modern tooling (html5? mobile friendly?)
 
 ---
 
-This technique can also be used to output an HTML file for any section of a presentation, should you need to.
+# Science part
+
+* Ability to use references from a bib file or else
+
+* Ability to show equations
+
+* Easy way to cite posts?
+
+* Content. Blog about science, or stuff relevant to science but not only (e.g. comparisons of way to fit and present linear models in R).
+
+---
+
+* Accessible. Alt text, contrast. Don't add gate-keeping to science.
+
+* You OWN it. Content, URL.
+
+* Allow for interactions (social media? commenting?)
+
+---
