@@ -2,6 +2,7 @@
 # Scientific blogging with R Markdown
 
 <!-- badges: start -->
+[![Netlify Status](https://api.netlify.com/api/v1/badges/87a90f80-f65e-4bac-9e50-2ffa6ab8936a/deploy-status)](https://app.netlify.com/sites/scientific-rmd-blogging/deploys)
 <!-- badges: end -->
 
 Source of the website of a short course.
