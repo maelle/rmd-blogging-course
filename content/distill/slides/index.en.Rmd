@@ -12,17 +12,23 @@ output: hugodown::md_document
 
 ---
 
-```{r}
-library("magick")
-channel_types()
-```
-
-```r
-library("magick")
-channel_types()
-```
+[Distill](rstudio.github.io/distill/) is both a framework and an R package.
 
 ---
 
-[Distill](rstudio.github.io/distill/) is a nice framework and R package.
+* Output format for single documents
 
+* Websites
+
+* Blogs, like websites but with blog posts than aren't re-rendered automatically.
+
+---
+
+Helpers like `distill::create_post()`.
+
+
+---
+
+Who created and maintains it?
+
+Sustainability?

@@ -1,7 +1,6 @@
 ---
 title: Further resources
-weight: 5
-chapter: true
+weight: 50
 ---
 
 # Further resources

@@ -1,0 +1,58 @@
+---
+title: Notes from the demo
+menuTitle: Demo
+weight: 5
+output: hugodown::md_document
+---
+
+
+
+- create blog (from RStudio Create New Project, not `distill::create_blog()`).
+
+- what's in the folder now?
+
+- show website in local browser.
+
+- change site but not URL, and about. change citations: true!!!
+
+- rebuild the site via RStudio build button or `rmarkdown::render_site()`.
+
+- show website in local browser.
+
+- `usethis::use_git()`
+
+- `usethis::use_github()`
+
+- edit and knit welcome. including author info!!
+
+- commit
+
+- rebuild the site via RStudio build button or `rmarkdown::render_site()`.
+
+- look what changed
+
+- show website in local browser.
+
+- look at post html in _posts and _site. mention JavaSscript
+
+- add a draft=TRUE post -- https://rstudio.github.io/distill/blog.html#organizing-posts -- can we see the post?
+
+- remove draft=true
+
+- add references
+
+- add latex
+
+- put website online via Netlify drag and drop.
+
+- put website online via Netlify+GitHub. mention there are other options.
+
+- add base_url to site config, show citations metadata is added.
+
+- mention git checkout -b and https://rstudio.github.io/distill/blog_workflow.html in particular the one git repo per post stuff
+
+- Netlify drag and drop / GitHub repo.
+
+- Some styling. 
+
+- add Twitter&GitHub
