@@ -1,19 +1,16 @@
 ---
 outputs:
 - Reveal
-title: Another deck
+title: distill
 hidden: true
 layout: list
 weight: 1
-reveal_hugo:
-  theme: "solarized"
-  margin: 0.2
 output: hugodown::md_document
-rmd_hash: 880f43ee3642a5f7
+rmd_hash: 38367cbccccd8d4f
 
 ---
 
-downlit
+Distill
 =======
 
 ------------------------------------------------------------------------
@@ -43,17 +40,5 @@ channel_types()
 
 ------------------------------------------------------------------------
 
-To create a reveal-hugo presentation from the `index.md` file of a leaf page bundle, you need to specify the layout manually.
-
-``` toml
-layout = "bundle"
-```
-
-------------------------------------------------------------------------
-
-Why? By default, reveal-hugo doesn't create pages for single template types (foo.md), only for list template types (\_index.md).
-
-------------------------------------------------------------------------
-
-This technique can also be used to output an HTML file for any section of a presentation, should you need to.
+[Distill](rstudio.github.io/distill/) is a nice framework and R package.
 

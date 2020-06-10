@@ -55,6 +55,7 @@ weight = 30
       unsafe = true
       
 [params.reveal_hugo]
+theme = "white"
 load_default_plugins = false
 plugins = [
   "reveal-js/plugin/zoom-js/zoom.js",
