@@ -118,3 +118,11 @@ pre code {
 #body code a.highlight {
     display: inline-flex;
 }
+
+#body pre code a.highlight {
+    display: inline-flex;
+}
+
+.reveal code {
+    font-size: inherit;
+  }

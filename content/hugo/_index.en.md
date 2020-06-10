@@ -4,9 +4,13 @@ weight: 3
 chapter: true
 slides: true
 output: hugodown::md_document
-rmd_hash: 695a2c4fa65c0e3d
+rmd_hash: bd32502b8f0b5731
 
 ---
 
 Hugo is the best!
+
+[`magick::channel_types`](https://rdrr.io/pkg/magick/man/options.html)
+
+[`curl::curl_options()`](https://rdrr.io/pkg/curl/man/curl_options.html)
 
