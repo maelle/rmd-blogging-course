@@ -84,16 +84,16 @@
 code {
     border-radius: 2px;
     white-space: nowrap;
-    color: #5e5e5e;
-    background: #FFF7DD;
-    border: 1px solid #fbf0cb;
+    color: inherit;
+    background: #f8f8f8;
+    border: 1px solid #f8f8f8;
     padding: 0px 2px;
 }
 code + .copy-to-clipboard {
     margin-left: -1px;
     border-left: 0 !important;
     font-size: inherit !important;
-    vertical-align: middle;
+    vertical-align: baseline;
     height: 21px;
     top: 0;
 }
@@ -106,7 +106,7 @@ pre {
     line-height: 1.15;
 }
 pre code {
-    color: #333e50;
+    color: inherit;
     background: inherit;
     white-space: inherit;
     border: 0;
