@@ -40,7 +40,7 @@ weight = 30
 
 [params]
   editURL = "https://github.com/maelle/rmd-blogging-course/edit/main/content/"
-  description = "Test of a course website"
+  description = "Scientific Rmd Blogging"
   author = "Maëlle Salmon"
   showVisitedLinks = true
   disableBreadcrumb = false
