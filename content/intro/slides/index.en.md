@@ -5,49 +5,84 @@ title: Scientific R Markdown blog?
 hidden: true
 layout: list
 weight: 1
-reveal_hugo:
-  theme: "solarized"
-  margin: 0.2
----
-
-# WHAT is is a scientific Rmd blog?
+output: hugodown::md_document
+rmd_hash: 0b61f178c2be2664
 
 ---
 
-IMHO :smile_cat:
+------------------------------------------------------------------------
+
+Why blog?
+=========
+
+------------------------------------------------------------------------
+
+-   Notes for future you
+
+-   Passion for sharing
+
+-   Opportunities
+
+------------------------------------------------------------------------
+
+Why create blog?
+================
+
+What if I don't really want to blog regularly?
+
+<!--html_preserve-->
+
+-   {{% fragment %}}Have a platform to share thoughts/stuff{{% /fragment %}}
+-   {{% fragment %}}Portfolio{{% /fragment %}}
+
+{{% fragment %}} In particular, imagine someone recommending you for a thing.{{% /fragment %}}
+
+<!--/html_preserve-->
+---------------------
+
+WHAT is is a scientific Rmd blog?
+=================================
+
+------------------------------------------------------------------------
+
+IMHO :smile\_cat:
 
 I'll list criteria so we have something to compare our adventures to.
 
----
+------------------------------------------------------------------------
 
-# Tech part
+Tech part
+=========
 
-* Easy way to update from Rmd w/o too much copy-pasting
+-   Easy way to update from Rmd without too much copy-pasting
 
-* Fits into your existing workflow or uses things you want to learn and invest time in
+-   Fits into your existing workflow or uses things you want to learn and invest time in
 
-* Ability to show code, with code highlighting
+-   Code, syntax highlighting
 
-* Modern tooling (html5? mobile friendly?)
+-   Modern tooling (html5? mobile friendly?)
 
----
+------------------------------------------------------------------------
 
-# Science part
+Science part
+============
 
-* Ability to use references from a bib file or else
+-   References from a .bib file
 
-* Ability to show equations
+-   Easy way to cite posts?
 
-* Easy way to cite posts?
+-   Equations with LaTeX syntax, but no LaTeX
 
-* Content. Blog about science, or stuff relevant to science but not only (e.g. comparisons of way to fit and present linear models in R).
+-   Content. Blog about science, or stuff relevant to science but not only (e.g. comparisons of way to fit and present linear models in R).
 
----
+------------------------------------------------------------------------
 
-* Accessible. Alt text, contrast. Don't add gate-keeping to science.
+Human part
+==========
 
-* You OWN it. Content, URL.
+-   Accessible. Alt text, contrast. Don't add gate-keeping to science.
 
-* Allow for interactions (social media? commenting?)
+-   You OWN it. Content, URL.
 
----
+-   Allow for interactions (social media? commenting?)
+

@@ -1,0 +1,80 @@
+---
+outputs:
+- Reveal
+title: Scientific R Markdown blog?
+hidden: true
+layout: list
+weight: 1
+output: hugodown::md_document
+---
+
+---
+
+# Why blog?
+
+---
+
+* Notes for future you
+
+* Passion for sharing
+
+* Opportunities
+
+---
+
+# Why create blog?
+
+What if I don't really want to blog regularly?
+
+<!--html_preserve-->
+
+- {{% fragment %}}Have a platform to share thoughts/stuff{{% /fragment %}}
+- {{% fragment %}}Portfolio{{% /fragment %}}
+
+
+{{% fragment %}} In particular, imagine someone recommending you for a thing.{{% /fragment %}}
+
+<!--/html_preserve-->
+---
+
+# WHAT is is a scientific Rmd blog?
+
+---
+
+IMHO :smile_cat:
+
+I'll list criteria so we have something to compare our adventures to.
+
+---
+
+# Tech part
+
+* Easy way to update from Rmd without too much copy-pasting
+
+* Fits into your existing workflow or uses things you want to learn and invest time in
+
+* Code, syntax highlighting
+
+* Modern tooling (html5? mobile friendly?)
+
+---
+
+# Science part
+
+* References from a .bib file
+
+* Easy way to cite posts?
+
+* Equations with LaTeX syntax, but no LaTeX
+
+* Content. Blog about science, or stuff relevant to science but not only (e.g. comparisons of way to fit and present linear models in R).
+
+---
+
+# Human part
+
+* Accessible. Alt text, contrast. Don't add gate-keeping to science.
+
+* You OWN it. Content, URL.
+
+* Allow for interactions (social media? commenting?)
