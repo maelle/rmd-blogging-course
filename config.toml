@@ -39,7 +39,7 @@ url = "/credits"
 weight = 30
 
 [params]
-  editURL = "https://github.com/maelle/test-course-site/edit/master/"
+  editURL = "https://github.com/maelle/rmd-blogging-course/edit/main/content/"
   description = "Test of a course website"
   author = "Maëlle Salmon"
   showVisitedLinks = true
