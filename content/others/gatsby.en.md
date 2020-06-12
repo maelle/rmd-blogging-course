@@ -1,6 +1,6 @@
 ---
 title: Gatsby
-weight: 5
+weight: 55
 ---
 
 Hugo is powered by Go, Jekyll by Ruby, [Gatsby](https://www.gatsbyjs.org/) by React.
