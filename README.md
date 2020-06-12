@@ -8,7 +8,7 @@
 
 Source of the website of a short course.
 
-It is powered by [Hugo](https://gohugo.io/) and the following theme:
+It is powered by [Hugo](https://gohugo.io/) and the following themes:
 
 * [Hugo theme learn](https://github.com/matcornic/hugo-theme-learn)
 * [Hugo theme reveal-hugo](https://github.com/dzello/reveal-hugo)
