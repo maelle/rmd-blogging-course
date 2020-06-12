@@ -10,4 +10,4 @@ How about building your own site generator?
 
 Read [how Mark created his own R-based site generator using Zurb Foundation as a powerful templating tool](https://mpadge.github.io/blog/blog001.html).
 
-For further inspiration, since the distill package is also an R-based site generator, you could have a look at [its source](http://github.com/rstudio/distill), in particular how it makes the most of R Markdown websites.
+For further inspiration, since the distill package is also an R-based site generator, you could have a look at [its source](http://github.com/rstudio/distill), in particular how it makes the most of [R Markdown websites](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html).
