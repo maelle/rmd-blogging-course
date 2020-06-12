@@ -26,4 +26,6 @@
 {{- if $custom_css -}}
 <link rel="stylesheet" href="{{ $custom_css | absURL }}" id="custom_css">
 {{- end -}}
+<link rel="stylesheet" href="{{ "countdown-0.3.5/countdown.css" | relURL }}" id="custom_css">
 {{ partial "highlight-style.html" . }}
+{{ with $.Params.countdown }}<script type="text/javascript" src="{{ "countdown-0.3.5/countdown.js" | relURL }}"></script> {{ end }}

@@ -6,7 +6,8 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: 647c623359a350a7
+countdown: true
+rmd_hash: e5c21e0605bdf8dc
 
 ---
 
@@ -16,6 +17,8 @@ Distill
 ------------------------------------------------------------------------
 
 [Distill](rstudio.github.io/distill/) is both a framework and an R package.
+
+> Distill for R Markdown is a web publishing format optimized for scientific and technical communication.
 
 ------------------------------------------------------------------------
 
@@ -31,7 +34,59 @@ Helpers like [`distill::create_post()`](https://rdrr.io/pkg/distill/man/create_p
 
 ------------------------------------------------------------------------
 
-Who created and maintains it?
+:train: Time for a demo!
 
-Sustainability?
+------------------------------------------------------------------------
+
+CHECKLIST
+
+------------------------------------------------------------------------
+
+Sustainability
+==============
+
+Created by:
+
+<div class="highlight">
+
+JJ Allaire \[aut, cre\], Rich Iannone \[aut\], Yihui Xie \[aut\]
+
+</div>
+
+Used for RStudio AI blog, in particular.
+
+Active development.
+
+------------------------------------------------------------------------
+
+Follow developments?
+====================
+
+-   Read the changelog when updating the package
+
+-   Watch development on GitHub
+
+-   Subscribe to the issues that are interesting to you: [search](https://github.com/rstudio/distill/issues/9), [ORCID](https://github.com/rstudio/distill/issues/21), etc.
+
+------------------------------------------------------------------------
+
+Questions, comments?
+====================
+
+Write them in the pad!
+
+------------------------------------------------------------------------
+
+Time for a break :coffee:
+=========================
+
+<!--html_preserve-->
+
+<div id="timer_5ee3a3da" class="countdown" style="top:100;left:0;" data-warnwhen="0">
+
+<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+
+</div>
+
+<!--/html_preserve-->
 

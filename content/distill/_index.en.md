@@ -4,11 +4,11 @@ weight: 3
 chapter: true
 slides: true
 output: hugodown::md_document
-rmd_hash: 48fda0a00e879116
+rmd_hash: eac431401cb5fb0a
 
 ---
 
-[Distill](rstudio.github.io/distill/) is a nice framework and R package.
+[Distill](rstudio.github.io/distill/) is both a framework and an R package.
 
 Its docs state:
 

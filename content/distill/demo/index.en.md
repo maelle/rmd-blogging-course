@@ -2,8 +2,9 @@
 title: Notes from the demo
 menuTitle: Demo
 weight: 5
+slides: true
 output: hugodown::md_document
-rmd_hash: ec44036eb5c05530
+rmd_hash: a80871ef6f9ec008
 
 ---
 
@@ -33,11 +34,13 @@ rmd_hash: ec44036eb5c05530
 
 -   show website in local browser.
 
--   look at post html in \_posts and \_site. mention JavaSscript
+-   look at post html in \_posts and \_site. mention JavaScript
 
--   add a draft=TRUE post -- <a href="https://rstudio.github.io/distill/blog.html#organizing-posts" class="uri">https://rstudio.github.io/distill/blog.html#organizing-posts</a> -- can we see the post?
+-   commit
 
--   remove draft=true
+-   add [a draft=TRUE post](https://rstudio.github.io/distill/blog_workflow.html#draft-option) with [`distill::create_post()`](https://rdrr.io/pkg/distill/man/create_post.html). knit, look what changed this time.
+
+-   remove draft=true from that post.
 
 -   add references
 
@@ -49,11 +52,11 @@ rmd_hash: ec44036eb5c05530
 
 -   add base\_url to site config, show citations metadata is added.
 
--   mention git checkout -b and <a href="https://rstudio.github.io/distill/blog_workflow.html" class="uri">https://rstudio.github.io/distill/blog_workflow.html</a> in particular the one git repo per post stuff
-
 -   Netlify drag and drop / GitHub repo.
 
 -   Some styling.
+
+-   mention git checkout -b and [the distill docs about blog post workflows](https://rstudio.github.io/distill/blog_workflow.html).
 
 -   add Twitter&GitHub
 

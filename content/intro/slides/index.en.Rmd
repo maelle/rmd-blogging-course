@@ -16,7 +16,7 @@ output: hugodown::md_document
 
 * Notes for future you
 
-* Passion for sharing
+* Passion for sharing?
 
 * Opportunities
 

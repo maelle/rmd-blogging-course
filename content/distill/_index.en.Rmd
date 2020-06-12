@@ -6,7 +6,7 @@ slides: true
 output: hugodown::md_document
 ---
 
-[Distill](rstudio.github.io/distill/) is a nice framework and R package.
+[Distill](rstudio.github.io/distill/) is both a framework and an R package.
 
 Its docs state:
 

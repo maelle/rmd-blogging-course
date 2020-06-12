@@ -2,6 +2,7 @@
 title: Notes from the demo
 menuTitle: Demo
 weight: 5
+slides: true
 output: hugodown::md_document
 ---
 
