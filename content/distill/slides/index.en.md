@@ -7,7 +7,7 @@ layout: list
 weight: 1
 output: hugodown::md_document
 countdown: true
-rmd_hash: 036b586c36e5ea2a
+rmd_hash: 910b7256d5b58722
 
 ---
 
@@ -35,6 +35,8 @@ Helpers like [`distill::create_post()`](https://rdrr.io/pkg/distill/man/create_p
 ------------------------------------------------------------------------
 
 :train: Time for a demo!
+
+[Notes on the course website](/distill/demo/)
 
 ------------------------------------------------------------------------
 
@@ -74,6 +76,13 @@ Limitations?
 -   Limited possibilities for customization (blessing in disguise?)
 
 -   Some open issues (ORCID support, RSS feed tweaking) but active development
+
+------------------------------------------------------------------------
+
+Further resources
+=================
+
+[Listed on the course website](/distill/further-resources/) :books:
 
 ------------------------------------------------------------------------
 

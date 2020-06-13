@@ -33,6 +33,8 @@ Helpers like `distill::create_post()`.
 
 :train: Time for a demo!
 
+[Notes on the course website](/distill/demo/)
+
 ---
 
 Scientific Rmd Blog Checklist
@@ -73,6 +75,12 @@ Active development.
 * Limited possibilities for customization (blessing in disguise?)
 
 * Some open issues (ORCID support, RSS feed tweaking) but active development
+
+---
+
+# Further resources
+
+[Listed on the course website](/distill/further-resources/) :books:
 
 ---
 
