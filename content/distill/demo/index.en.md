@@ -4,9 +4,11 @@ menuTitle: Demo
 weight: 5
 slides: true
 output: hugodown::md_document
-rmd_hash: 2c22019069fe21fe
+rmd_hash: 0d3c04ff0920674e
 
 ---
+
+-   install the distill package, `install.packages("distill")`
 
 -   create blog (from RStudio Create New Project, not [`distill::create_blog()`](https://rdrr.io/pkg/distill/man/create_website.html)).
 
@@ -14,47 +16,49 @@ rmd_hash: 2c22019069fe21fe
 
 -   show website in local browser.
 
+-   [`usethis::use_git()`](https://usethis.r-lib.org/reference/use_git.html)
+
+-   [`usethis::use_github()`](https://usethis.r-lib.org/reference/use_github.html)
+
 -   change site but not URL, and about. change citations: true!!!
 
 -   rebuild the site via RStudio build button or [`rmarkdown::render_site()`](https://rdrr.io/pkg/rmarkdown/man/render_site.html).
 
 -   show website in local browser.
 
--   [`usethis::use_git()`](https://usethis.r-lib.org/reference/use_git.html)
-
--   [`usethis::use_github()`](https://usethis.r-lib.org/reference/use_github.html)
-
 -   edit and knit welcome. including author info!!
 
--   commit
-
--   rebuild the site via RStudio build button or [`rmarkdown::render_site()`](https://rdrr.io/pkg/rmarkdown/man/render_site.html).
-
--   look what changed
+-   look what changed, commit
 
 -   show website in local browser.
 
--   look at post html in \_posts and \_site. mention JavaScript
+-   look at post html in \_posts and \_site. mention navbar
 
 -   commit
 
--   add a post with [`distill::create_post()`](https://rdrr.io/pkg/distill/man/create_post.html). knit, look what changed this time. Mention \[post workflows\](<a href="https://rstudio.github.io/distill/blog_workflow.html" class="uri">https://rstudio.github.io/distill/blog_workflow.html</a>!
+-   add a post with [`distill::create_post()`](https://rdrr.io/pkg/distill/man/create_post.html). knit, look what changed this time.
 
 -   add references
 
--   add latex
+-   add latex, mention JavaScript
+
+-   add footnote and aside
 
 -   put website online via Netlify drag and drop.
 
--   put website online via Netlify+GitHub. mention there are other options.
-
 -   add base\_url to site config, show citations metadata is added.
 
--   Netlify drag and drop / GitHub repo.
+-   Netlify drag and drop.
 
--   Some minimal styling.
+-   Some minimal styling. Introduce the web developer console.
+
+-   Netlify drag and drop
+
+-   GitHub repo [`usethis::use_github()`](https://usethis.r-lib.org/reference/use_github.html)
 
 -   mention git checkout -b and [the distill docs about blog post workflows](https://rstudio.github.io/distill/blog_workflow.html).
+
+-   Other options for deployment
 
 -   add Twitter&GitHub
 

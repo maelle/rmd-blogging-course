@@ -6,7 +6,7 @@ slides: true
 output: hugodown::md_document
 ---
 
-
+- install the distill package, `install.packages("distill")`
 
 - create blog (from RStudio Create New Project, not `distill::create_blog()`).
 
@@ -14,46 +14,48 @@ output: hugodown::md_document
 
 - show website in local browser.
 
+- `usethis::use_git()`
+
+- `usethis::use_github()`
+
 - change site but not URL, and about. change citations: true!!!
 
 - rebuild the site via RStudio build button or `rmarkdown::render_site()`.
 
 - show website in local browser.
 
-- `usethis::use_git()`
-
-- `usethis::use_github()`
-
 - edit and knit welcome. including author info!!
 
-- commit
-
-- rebuild the site via RStudio build button or `rmarkdown::render_site()`.
-
-- look what changed
+- look what changed, commit
 
 - show website in local browser.
 
-- look at post html in _posts and _site. mention JavaScript
+- look at post html in _posts and _site. mention navbar
 
 - commit
 
-- add a post with `distill::create_post()`. knit, look what changed this time. Mention [post workflows](https://rstudio.github.io/distill/blog_workflow.html!
+- add a post with `distill::create_post()`. knit, look what changed this time.
 
 - add references
 
-- add latex
+- add latex, mention JavaScript
+
+- add footnote and aside
 
 - put website online via Netlify drag and drop.
 
-- put website online via Netlify+GitHub. mention there are other options.
-
 - add base_url to site config, show citations metadata is added.
 
-- Netlify drag and drop / GitHub repo.
+- Netlify drag and drop.
 
-- Some minimal styling. 
+- Some minimal styling. Introduce the web developer console.
+
+- Netlify drag and drop
+
+- GitHub repo `usethis::use_github()`
 
 - mention git checkout -b and [the distill docs about blog post workflows](https://rstudio.github.io/distill/blog_workflow.html).
+
+- Other options for deployment
 
 - add Twitter&GitHub
