@@ -9,7 +9,7 @@ Thank you!
 
 Fellow Hugo fans, who taught me a lot via their public materials and useful convos!
 
-* [Alison Hill](https://alison.rbind.io/)
+* [Alison Hill](https://alison.rbind.io/) -- see for instance [her webinar with Desirée De Leon about "Sharing on Short Notice"](https://education.rstudio.com/blog/2020/04/sharing-on-short-notice/)
 * [Steph Locke](https://twitter.com/TheStephLocke)
 * [Lukas Burk](https://blog.jemu.name/)
 
