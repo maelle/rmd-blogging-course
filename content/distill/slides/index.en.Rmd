@@ -35,8 +35,14 @@ Helpers like `distill::create_post()`.
 
 ---
 
-CHECKLIST
+Scientific Rmd Blog Checklist
 
+* [x] R Markdown
+* [x] Syntax highlighting (for all knitr-supported languages)
+* [x] Modern
+* [x] .bib
+* [x] Citation for posts
+* [x] Equations
 
 ---
 
@@ -54,7 +60,7 @@ glue::glue_collapse(
   sep = ", ")
 ```
 
-Used for RStudio AI blog, in particular.
+Used for [RStudio AI blog](https://blogs.rstudio.com/ai/), in particular.
 
 Active development.
 
@@ -62,11 +68,11 @@ Active development.
 
 # Follow developments?
 
-* Read the changelog when updating the package
+* Read the changelog when updating the package?
 
-* Watch development on GitHub
+* [Watch development on GitHub](https://help.github.com/en/github/managing-subscriptions-and-notifications-on-github/viewing-your-subscriptions#configuring-your-watch-settings-for-an-individual-repository)?
 
-* Subscribe to the issues that are interesting to you: [search](https://github.com/rstudio/distill/issues/9), [ORCID](https://github.com/rstudio/distill/issues/21), etc.
+* Subscribe to the [issues](https://github.com/rstudio/distill/issues) that are interesting to you: [search](https://github.com/rstudio/distill/issues/9), [ORCID](https://github.com/rstudio/distill/issues/21), etc.?
 
 ---
 

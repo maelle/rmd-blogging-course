@@ -59,7 +59,7 @@
 /* LiteralNumberOct */ .chroma .mo { color: #666666 }
 /* Operator */ .chroma .o { color: #666666 }
 /* OperatorWord */ .chroma .ow { color: #aa22ff; font-weight: bold }
-/* Punctuation */ .chroma .p {  }
+/* Punctuation */ .chroma .p { color: #666 }
 /* Comment */ .chroma .c { color: #3b7777; font-style: italic }
 /* CommentHashbang */ .chroma .ch { color: #3b7777; font-style: italic }
 /* CommentMultiline */ .chroma .cm { color: #3b7777; font-style: italic }

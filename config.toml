@@ -34,6 +34,11 @@ url = "https://github.com/maelle/test-course-site"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
+name = "<i class='far fa-fw fa-copy'></i> Snippets"
+url = "/snippets"
+weight = 20
+
+[[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
 url = "/credits"
 weight = 30

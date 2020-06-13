@@ -7,7 +7,7 @@ layout: list
 weight: 1
 output: hugodown::md_document
 countdown: true
-rmd_hash: e5c21e0605bdf8dc
+rmd_hash: 3a79e792808219f9
 
 ---
 
@@ -38,7 +38,14 @@ Helpers like [`distill::create_post()`](https://rdrr.io/pkg/distill/man/create_p
 
 ------------------------------------------------------------------------
 
-CHECKLIST
+Scientific Rmd Blog Checklist
+
+-   [x] R Markdown
+-   [x] Syntax highlighting (for all knitr-supported languages)
+-   [x] Modern
+-   [x] .bib
+-   [x] Citation for posts
+-   [x] Equations
 
 ------------------------------------------------------------------------
 
@@ -53,7 +60,7 @@ JJ Allaire \[aut, cre\], Rich Iannone \[aut\], Yihui Xie \[aut\]
 
 </div>
 
-Used for RStudio AI blog, in particular.
+Used for [RStudio AI blog](https://blogs.rstudio.com/ai/), in particular.
 
 Active development.
 
@@ -62,11 +69,11 @@ Active development.
 Follow developments?
 ====================
 
--   Read the changelog when updating the package
+-   Read the changelog when updating the package?
 
--   Watch development on GitHub
+-   [Watch development on GitHub](https://help.github.com/en/github/managing-subscriptions-and-notifications-on-github/viewing-your-subscriptions#configuring-your-watch-settings-for-an-individual-repository)?
 
--   Subscribe to the issues that are interesting to you: [search](https://github.com/rstudio/distill/issues/9), [ORCID](https://github.com/rstudio/distill/issues/21), etc.
+-   Subscribe to the [issues](https://github.com/rstudio/distill/issues) that are interesting to you: [search](https://github.com/rstudio/distill/issues/9), [ORCID](https://github.com/rstudio/distill/issues/21), etc.?
 
 ------------------------------------------------------------------------
 
