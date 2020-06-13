@@ -7,10 +7,10 @@
     --MAIN-LINK-HOVER-color:#167ad0; /* Color of hovered links */
     --MAIN-ANCHOR-color: #1C90F3; /* color of anchors on titles */
 
-    --MENU-HEADER-BG-color:#1C90F3; /* Background color of menu header */
+    --MENU-HEADER-BG-color:#FA8072; /* Background color of menu header */
     --MENU-HEADER-BORDER-color:#33a1ff; /*Color of menu header border */ 
 
-    --MENU-SEARCH-BG-color:#167ad0; /* Search field background color (by default borders + icons) */
+    --MENU-SEARCH-BG-color:#fff; /* Search field background color (by default borders + icons) */
     --MENU-SEARCH-BOX-color: #33a1ff; /* Override search field border color */
     --MENU-SEARCH-BOX-ICONS-color: #a1d2fd; /* Override search field icons color */
 
@@ -100,4 +100,13 @@ a:hover {
 
 #sidebar hr {
     border-color: var(--MENU-SECTION-HR-color);
+}
+
+blockquote {
+    border-left: 10px solid #FA8072;
+}
+
+blockquote p {
+    font-size: 1.1rem;
+    color: #666;
 }

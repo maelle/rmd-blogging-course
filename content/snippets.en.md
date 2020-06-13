@@ -30,6 +30,19 @@ plot(a)
 
 ````
 
+## Setup chunk
+
+````markdown
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  warning = TRUE,
+  message = TRUE,
+  comment = ""
+)
+```
+````
+
 ## Bibliography
 
 ### Markdown part
