@@ -7,7 +7,7 @@ layout: list
 weight: 1
 output: hugodown::md_document
 countdown: true
-rmd_hash: 3a79e792808219f9
+rmd_hash: 036b586c36e5ea2a
 
 ---
 
@@ -66,14 +66,14 @@ Active development.
 
 ------------------------------------------------------------------------
 
-Follow developments?
-====================
+Limitations?
+============
 
--   Read the changelog when updating the package?
+-   Content stored as html (harder to migrate?)
 
--   [Watch development on GitHub](https://help.github.com/en/github/managing-subscriptions-and-notifications-on-github/viewing-your-subscriptions#configuring-your-watch-settings-for-an-individual-repository)?
+-   Limited possibilities for customization (blessing in disguise?)
 
--   Subscribe to the [issues](https://github.com/rstudio/distill/issues) that are interesting to you: [search](https://github.com/rstudio/distill/issues/9), [ORCID](https://github.com/rstudio/distill/issues/21), etc.?
+-   Some open issues (ORCID support, RSS feed tweaking) but active development
 
 ------------------------------------------------------------------------
 
