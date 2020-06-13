@@ -4,7 +4,7 @@ menuTitle: Demo
 weight: 5
 slides: true
 output: hugodown::md_document
-rmd_hash: a80871ef6f9ec008
+rmd_hash: 2c22019069fe21fe
 
 ---
 
@@ -38,9 +38,7 @@ rmd_hash: a80871ef6f9ec008
 
 -   commit
 
--   add [a draft=TRUE post](https://rstudio.github.io/distill/blog_workflow.html#draft-option) with [`distill::create_post()`](https://rdrr.io/pkg/distill/man/create_post.html). knit, look what changed this time.
-
--   remove draft=true from that post.
+-   add a post with [`distill::create_post()`](https://rdrr.io/pkg/distill/man/create_post.html). knit, look what changed this time. Mention \[post workflows\](<a href="https://rstudio.github.io/distill/blog_workflow.html" class="uri">https://rstudio.github.io/distill/blog_workflow.html</a>!
 
 -   add references
 
@@ -54,7 +52,7 @@ rmd_hash: a80871ef6f9ec008
 
 -   Netlify drag and drop / GitHub repo.
 
--   Some styling.
+-   Some minimal styling.
 
 -   mention git checkout -b and [the distill docs about blog post workflows](https://rstudio.github.io/distill/blog_workflow.html).
 

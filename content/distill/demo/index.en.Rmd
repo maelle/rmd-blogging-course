@@ -38,9 +38,7 @@ output: hugodown::md_document
 
 - commit
 
-- add [a draft=TRUE post](https://rstudio.github.io/distill/blog_workflow.html#draft-option) with `distill::create_post()`. knit, look what changed this time.
-
-- remove draft=true from that post.
+- add a post with `distill::create_post()`. knit, look what changed this time. Mention [post workflows](https://rstudio.github.io/distill/blog_workflow.html!
 
 - add references
 
@@ -54,7 +52,7 @@ output: hugodown::md_document
 
 - Netlify drag and drop / GitHub repo.
 
-- Some styling. 
+- Some minimal styling. 
 
 - mention git checkout -b and [the distill docs about blog post workflows](https://rstudio.github.io/distill/blog_workflow.html).
 
