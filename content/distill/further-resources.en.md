@@ -27,11 +27,19 @@ If you start using distill for your website...
 | [Michael Clark's personal website](https://m-clark.github.io/) | [<i class='fab fa-fw fa-github'>](https://github.com/m-clark/m-clark.github.io) |
 | [Antoine Bichat's personal website](https://abichat.github.io/) | [<i class='fab fa-fw fa-github'>](https://github.com/abichat/abichat.github.io) |
 
+### A few more links
+
+[Emi Tanaka's take on distill (back when the package was called radix) vs Hugo (with blogdown)](https://emitanaka.org/r/posts/2018-12-12-scientific-and-technical-blogging-radix-vs-blogdown/)
+
 [A tentative GitHub code search](https://github.com/search?l=&o=desc&q=distill%3A%3Adistill_website+filename%3Aindex.Rmd&s=indexed&type=Code).
 
 ## A warning about customization :warning:
 
 > A word of warning though: Distill (the original library upon which the R package is based) is strongly opinionated about CSS and sometimes it's tricky or impossible to change things. Just to say your mileage may vary and if there is something you can't quite get right there is not likely much we can do about it -- *JJ Allaire [in a GitHub issue](https://github.com/rstudio/distill/issues/100#issuecomment-508075573)*.
+
+{{% notice tip %}}
+If you liked distill's looks but would like further customization, and if you like Hugo that we'll present in the next section, check out [this Distill theme for Hugo](https://github.com/activatedgeek/distillpub).
+{{% /notice %}}
 
 ## Where to get help? :wave:
 
