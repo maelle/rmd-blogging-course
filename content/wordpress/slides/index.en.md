@@ -1,7 +1,7 @@
 ---
 outputs:
 - Reveal
-title: Another deck
+title: R Markdown & WordPress
 hidden: true
 layout: list
 weight: 1
@@ -9,51 +9,97 @@ reveal_hugo:
   theme: "solarized"
   margin: 0.2
 output: hugodown::md_document
-rmd_hash: 880f43ee3642a5f7
+rmd_hash: 1573143a4face3a5
 
 ---
 
-downlit
-=======
+WordPress
+=========
 
 ------------------------------------------------------------------------
 
-<div class="highlight">
+Why use WordPress?
+==================
 
-<pre class='chroma'><code class='language-r' data-lang='r'><span class='nf'>library</span>(<span class='s'><a href='https://rdrr.io/pkg/magick/man'>"magick"</a></span>)
-<span class='c'>#&gt; Linking to ImageMagick 6.9.7.4</span>
-<span class='c'>#&gt; Enabled features: fontconfig, freetype, fftw, lcms, pango, x11</span>
-<span class='c'>#&gt; Disabled features: cairo, ghostscript, rsvg, webp</span>
-<span class='nf'><a href='https://rdrr.io/pkg/magick/man/options.html'>channel_types</a></span>()
-<span class='c'>#&gt;  [1] "Undefined"  "A"          "All"        "Alpha"      "B"         </span>
-<span class='c'>#&gt;  [6] "Black"      "Blue"       "C"          "Cyan"       "Default"   </span>
-<span class='c'>#&gt; [11] "G"          "Gray"       "Green"      "H"          "Hue"       </span>
-<span class='c'>#&gt; [16] "Index"      "K"          "L"          "Lightness"  "Luminance" </span>
-<span class='c'>#&gt; [21] "Luminosity" "Magenta"    "Matte"      "M"          "O"         </span>
-<span class='c'>#&gt; [26] "Opacity"    "Red"        "R"          "Saturation" "S"         </span>
-<span class='c'>#&gt; [31] "Sync"       "Y"          "Yellow"     "0"          "1"         </span>
-<span class='c'>#&gt; [36] "2"          "3"          "4"          "5"</span></code></pre>
+-   Clicking to design the interface
 
-</div>
+-   Internationalization
 
-``` r
-library("magick")
-channel_types()
-```
+-   Open Source
 
 ------------------------------------------------------------------------
 
-To create a reveal-hugo presentation from the `index.md` file of a leaf page bundle, you need to specify the layout manually.
+Why NOT use WordPress
+=====================
 
-``` toml
-layout = "bundle"
-```
+-   Performance?
+
+-   Security?
+
+If you use WordPress, read the docs.
 
 ------------------------------------------------------------------------
 
-Why? By default, reveal-hugo doesn't create pages for single template types (foo.md), only for list template types (\_index.md).
+Do you use WordPress?
+=====================
 
 ------------------------------------------------------------------------
 
-This technique can also be used to output an HTML file for any section of a presentation, should you need to.
+Workarounds for no WordPress
+============================
+
+-   Use a subdomain for your R Markdown blog, linked from your main WordPress website.
+
+-   Netlify CMS and other CMS as an user-friendly interface on static websites (like Hugo).
+
+------------------------------------------------------------------------
+
+Now, Rmd and WordPress!
+=======================
+
+-   [`knitr::knit2wp()`](https://rdrr.io/pkg/knitr/man/knit2wp.html) is now too dated (it uses `RCurl` and `XML`)
+
+-   I made a package using WordPress REST API v2!
+
+So your choice is between a too old tool and my WIP package. :joy:
+
+------------------------------------------------------------------------
+
+wordpress.com vs wordpress.org
+==============================
+
+-   Free wordpress.com: no plugin (so no API)
+
+-   Paid wordpress.com: \$\$\$
+
+-   Your own local server: efforts
+
+-   Paid service hosting+domain name+ WordPress install: a few \$ a month
+
+------------------------------------------------------------------------
+
+Setup for goodpress (0/2)
+=========================
+
+Have a WordPress website that's not a free/cheap plan from wordpress.com :wink:
+
+------------------------------------------------------------------------
+
+Setup for goodpress (1/2)
+=========================
+
+-   Install the [Application Passwords plugin](https://wordpress.org/plugins/application-passwords/)
+
+-   Edit [.htaccess](https://github.com/WordPress/application-passwords/wiki/Basic-Authorization-Header----Missing) (with a plugin?)
+
+-   Create an user with limited rights, and an application password for them
+
+------------------------------------------------------------------------
+
+Setup for goodpress (2/2)
+=========================
+
+-   Find [my code.css](https://github.com/maelle/goodpress/blob/main/inst/css/code.css) and copy it to your clipboard.
+
+-   From your WordPress admin dasbhoard, go to Appearance &gt; Customize &gt; Additional CSS. Paste the CSS there and click on publish.
 
