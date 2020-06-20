@@ -12,7 +12,7 @@ I have shown all there is to [`goodpress`](https://github.com/maelle/goodpress),
 
 * with code and docs.
 
-I'd be glad to help you improve as an R package developer if you feel you're a n00b.
+I'd be glad to help you with R package development tips if you feel you're a n00b.
 
 ## Migrate your content to a static website?
 
