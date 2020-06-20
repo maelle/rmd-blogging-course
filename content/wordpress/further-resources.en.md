@@ -4,6 +4,13 @@ menuTitle: Further resources
 weight: 50
 ---
 
+## Read about WordPress
+
+In your usual WordPress channels.
+And contribute good WordPress general resources to this repo. :wink:
+
+It's good to know how your website infrastructure evolves and works.
+
 ## Contribute to goodpress?
 
 I have shown all there is to [`goodpress`](https://github.com/maelle/goodpress), if you want more you might contribute 
@@ -16,6 +23,7 @@ I'd be glad to help you with R package development tips if you feel you're a n00
 
 ## Migrate your content to a static website?
 
-No judgement on your using WordPress, of course!
+No judgement on your using WordPress, of course! Keep going! :rocket:
+
 But now that your posts are neatly organized in folders they'd be easier to migrate than if they were scattered.
 Hugo docs in particular have [a section about migrating to Hugo from WordPress](https://gohugo.io/tools/migrations/).
