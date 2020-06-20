@@ -43,7 +43,7 @@ If you use WordPress, read the docs.
 
 * Use a subdomain for your R Markdown blog, linked from your main WordPress website.
 
-* Netlify CMS and other CMS as an user-friendly interface on static websites (like Hugo).
+* [Netlify CMS](https://www.netlifycms.org/) and other CMS as an user-friendly interface on static websites (like Hugo).
 
 ---
 
@@ -59,9 +59,9 @@ So your choice is between a too old tool and my WIP package. :joy:
 
 # wordpress.com vs wordpress.org
 
-* Free wordpress.com: no plugin (so no API)
+* Free/cheap wordpress.com: no plugin (so no API)
 
-* Paid wordpress.com: $$$
+* Business wordpress.com: $$$
 
 * Your own local server: efforts
 
@@ -86,6 +86,8 @@ Have a WordPress website that's not a free/cheap plan from wordpress.com :wink:
 ---
 
 # Setup for goodpress (2/2)
+
+For R syntax highlighting :sparkles:
 
 * Find [my code.css](https://github.com/maelle/goodpress/blob/main/inst/css/code.css) and copy it to your clipboard.
 

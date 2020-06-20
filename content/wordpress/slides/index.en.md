@@ -9,7 +9,7 @@ reveal_hugo:
   theme: "solarized"
   margin: 0.2
 output: hugodown::md_document
-rmd_hash: 1573143a4face3a5
+rmd_hash: 1c1b2dd2afa6e08f
 
 ---
 
@@ -50,7 +50,7 @@ Workarounds for no WordPress
 
 -   Use a subdomain for your R Markdown blog, linked from your main WordPress website.
 
--   Netlify CMS and other CMS as an user-friendly interface on static websites (like Hugo).
+-   [Netlify CMS](https://www.netlifycms.org/) and other CMS as an user-friendly interface on static websites (like Hugo).
 
 ------------------------------------------------------------------------
 
@@ -68,9 +68,9 @@ So your choice is between a too old tool and my WIP package. :joy:
 wordpress.com vs wordpress.org
 ==============================
 
--   Free wordpress.com: no plugin (so no API)
+-   Free/cheap wordpress.com: no plugin (so no API)
 
--   Paid wordpress.com: \$\$\$
+-   Business wordpress.com: \$\$\$
 
 -   Your own local server: efforts
 
@@ -98,6 +98,8 @@ Setup for goodpress (1/2)
 
 Setup for goodpress (2/2)
 =========================
+
+For R syntax highlighting :sparkles:
 
 -   Find [my code.css](https://github.com/maelle/goodpress/blob/main/inst/css/code.css) and copy it to your clipboard.
 
