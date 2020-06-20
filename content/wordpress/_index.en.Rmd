@@ -14,6 +14,8 @@ First of all, no shame!
 
 ## Our challenge
 
-How to publish your R Markdown posts to a WordPress website without copy-pasting?
+How to publish your R Markdown posts to a WordPress website without copy-pasting?[^cp]
 
 The only modern solution is to my knowledge, my [own WIP package `goodpress`](https://github.com/maelle/goodpress). I'll explain a few setup steps on your website, and how to organize your posts to publish them with `goodpress::wp_post()`, if you're brave enough for using my tool. :wink:
+
+[^cp]: Copy-pasting is ok, [the pros do it](https://twitter.com/gvwilson/status/1274324689322741760); it's just not the vibe of this course.
