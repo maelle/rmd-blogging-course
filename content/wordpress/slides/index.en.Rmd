@@ -68,12 +68,30 @@ So your choice is between a too old tool and my WIP package. :joy:
 
 # From Rmd to website
 
+Under the hood
+
 ```{=html}
 {{<mermaid align="left">}}
 graph LR;
     A[Rmd] --> |"R ( hugodown :package:, </br> downlit :package:) </br> & Pandoc"| B{md}
     B --> |"R (xml2 :package: ) </br> & Pandoc"| C[HTML]
     C --> |"WordPress"| D[HTML]
+{{< /mermaid >}}
+```
+
+
+---
+
+# From Rmd to website
+
+What you do
+
+```{=html}
+{{<mermaid align="left">}}
+graph LR;
+    A[Rmd] --> |":large_blue_circle: knit button"| B{md}
+    B --> |"run wp_post()"| C[HTML]
+    C --> |"Wait"| D[HTML]
 {{< /mermaid >}}
 ```
 

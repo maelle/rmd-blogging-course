@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: 6c8a137af18fbe9c
+rmd_hash: c69b623340e1a452
 
 ---
 
@@ -78,11 +78,27 @@ wordpress.com vs wordpress.org
 From Rmd to website
 ===================
 
+Under the hood
+
 {{<mermaid align="left">}}
 graph LR;
     A[Rmd] --> |"R ( hugodown :package:, </br> downlit :package:) </br> & Pandoc"| B{md}
     B --> |"R (xml2 :package: ) </br> & Pandoc"| C[HTML]
     C --> |"WordPress"| D[HTML]
+{{< /mermaid >}}
+
+------------------------------------------------------------------------
+
+From Rmd to website
+===================
+
+What you do
+
+{{<mermaid align="left">}}
+graph LR;
+    A[Rmd] --> |":large_blue_circle: knit button"| B{md}
+    B --> |"run wp_post()"| C[HTML]
+    C --> |"Wait"| D[HTML]
 {{< /mermaid >}}
 
 ------------------------------------------------------------------------
