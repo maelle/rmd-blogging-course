@@ -8,6 +8,8 @@ weight: 5
 
 You can read the [whole hugodown docs](https://hugodown.r-lib.org/) and probably should especially as hugodown evolves.
 
+Also read the docs of the theme you choose, and follow its development.
+
 You might not need to read [Hugo docs](https://gohugo.io/documentation/), that are much longer, much more overwhelming: you mostly only need to read Hugo docs when you need to tweak or customize a theme.
 
 ## Contributing guide for your website
