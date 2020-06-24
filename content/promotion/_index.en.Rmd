@@ -1,0 +1,11 @@
+---
+title: Promotion
+weight: 5
+chapter: true
+slides: true
+output: hugodown::md_document
+---
+
+# Blog promotion
+
+How can you help your blog gain a readership? Write good content, and then?
