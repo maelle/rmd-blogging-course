@@ -7,7 +7,7 @@ layout: list
 weight: 1
 output: hugodown::md_document
 countdown: true
-rmd_hash: 910b7256d5b58722
+rmd_hash: 5ac503f3419ff591
 
 ---
 
@@ -30,7 +30,19 @@ Distill
 
 ------------------------------------------------------------------------
 
-Helpers like [`distill::create_post()`](https://rdrr.io/pkg/distill/man/create_post.html).
+Helpers like [`distill::create_post()`](https://rdrr.io/pkg/distill/man/create_post.html)
+
+------------------------------------------------------------------------
+
+From Rmd to website
+===================
+
+Inspired by [Emi Tanaka's post](https://emitanaka.org/r/posts/2018-12-12-scientific-and-technical-blogging-radix-vs-blogdown/)
+
+{{<mermaid align="left">}}
+graph LR;
+    A[Rmd] -->|"R ( distill :package:) & Pandoc & Distill framework" | B[HTML]
+{{< /mermaid >}}
 
 ------------------------------------------------------------------------
 

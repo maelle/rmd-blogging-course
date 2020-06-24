@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: 99ebc98e9b8b1450
+rmd_hash: a360811608d485b9
 
 ---
 
@@ -56,6 +56,15 @@ What if I don't really want to blog regularly?
 
 <!--/html_preserve-->
 ---------------------
+
+What is a website?
+==================
+
+-   static: HTML, CSS, JS
+
+-   non static: more machinery on the server side
+
+------------------------------------------------------------------------
 
 Why Rmd for blogging?
 =====================

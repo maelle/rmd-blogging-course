@@ -53,6 +53,14 @@ What if I don't really want to blog regularly?
 <!--/html_preserve-->
 ---
 
+# What is a website?
+
+* static: HTML, CSS, JS
+
+* non static: more machinery on the server side
+
+---
+
 # Why Rmd for blogging?
 
 - {{% fragment %}}Data analysis with R{{% /fragment %}}
