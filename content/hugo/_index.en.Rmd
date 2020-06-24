@@ -6,8 +6,8 @@ slides: true
 output: hugodown::md_document
 ---
 
-Hugo is the best!
+We'll explore [Hugo](https://gohugo.io/documentation/) with [hugodown](https://hugodown.r-lib.org/).
 
-`magick::channel_types`
+Note that Hugo changes fast. Exciting (more features!) and scary (broken websites).
 
-`curl::curl_options()`
+The hugodown package by Hadley Wickham is itself an experimental R package (trustworthy though!), but it pins a Hugo version to projects.

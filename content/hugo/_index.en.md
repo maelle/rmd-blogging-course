@@ -4,13 +4,13 @@ weight: 3
 chapter: true
 slides: true
 output: hugodown::md_document
-rmd_hash: bd32502b8f0b5731
+rmd_hash: 45e53c79e5722743
 
 ---
 
-Hugo is the best!
+We'll explore [Hugo](https://gohugo.io/documentation/) with [hugodown](https://hugodown.r-lib.org/).
 
-[`magick::channel_types`](https://rdrr.io/pkg/magick/man/options.html)
+Note that Hugo changes fast. Exciting (more features!) and scary (broken websites).
 
-[`curl::curl_options()`](https://rdrr.io/pkg/curl/man/curl_options.html)
+The hugodown package by Hadley Wickham is itself an experimental R package (trustworthy though!), but it pins a Hugo version to projects.
 
