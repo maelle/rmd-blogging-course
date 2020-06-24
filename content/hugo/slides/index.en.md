@@ -5,11 +5,8 @@ title: Hugo & hugodown
 hidden: true
 layout: list
 weight: 1
-reveal_hugo:
-  theme: "solarized"
-  margin: 0.2
 output: hugodown::md_document
-rmd_hash: ef9dfa3fd7552a80
+rmd_hash: 7ebcfd6d53b0a927
 
 ---
 
@@ -31,6 +28,8 @@ Only an .exe to install :tada:
 
 hugodown
 ========
+
+R :package:
 
 -   An R Markdown output format
 
