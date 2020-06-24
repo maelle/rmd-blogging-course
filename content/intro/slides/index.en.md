@@ -6,9 +6,24 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: 0b61f178c2be2664
+rmd_hash: 7fd83f45c5f596de
 
 ---
+
+Scientific blogging with R Markdown
+===================================
+
+:wave: Welcome!
+
+------------------------------------------------------------------------
+
+I'm Maëlle, I like R, blogging and science.
+
+{{% fragment %}}
+
+:house: <a href="https://masalmon.eu" class="uri">https://masalmon.eu</a>
+
+{{% /fragment %}}
 
 ------------------------------------------------------------------------
 
@@ -19,9 +34,13 @@ Why blog?
 
 -   Notes for future you
 
--   Passion for sharing
+-   Passion for sharing?
 
 -   Opportunities
+
+------------------------------------------------------------------------
+
+Teaching this course is an opportunity I got from blogging but blogging is not a pyramid scheme :wink:
 
 ------------------------------------------------------------------------
 
@@ -32,10 +51,8 @@ What if I don't really want to blog regularly?
 
 <!--html_preserve-->
 
--   {{% fragment %}}Have a platform to share thoughts/stuff{{% /fragment %}}
--   {{% fragment %}}Portfolio{{% /fragment %}}
-
-{{% fragment %}} In particular, imagine someone recommending you for a thing.{{% /fragment %}}
+-   {{% fragment %}}Have a platform to share stuff when you need to.{{% /fragment %}}
+-   {{% fragment %}}Portfolio. In particular, imagine someone recommending you for a thing.{{% /fragment %}}
 
 <!--/html_preserve-->
 ---------------------
@@ -45,7 +62,7 @@ WHAT is is a scientific Rmd blog?
 
 ------------------------------------------------------------------------
 
-IMHO :smile\_cat:
+IMHO :smile_cat:
 
 I'll list criteria so we have something to compare our adventures to.
 
@@ -54,35 +71,60 @@ I'll list criteria so we have something to compare our adventures to.
 Tech part
 =========
 
--   Easy way to update from Rmd without too much copy-pasting
+<!--html_preserve-->
 
--   Fits into your existing workflow or uses things you want to learn and invest time in
+-   {{% fragment %}}Easy way to update from Rmd without too much copy-pasting{{% /fragment %}}
 
--   Code, syntax highlighting
+-   {{% fragment %}}Fits into your existing workflow or uses things you want to learn and invest time in{{% /fragment %}}
 
--   Modern tooling (html5? mobile friendly?)
+-   {{% fragment %}}Code, syntax highlighting{{% /fragment %}}
 
-------------------------------------------------------------------------
+-   {{% fragment %}}Modern tooling (html5? mobile friendly?){{% /fragment %}}
+
+<!--/html_preserve-->
+---------------------
 
 Science part
 ============
 
--   References from a .bib file
+-   {{% fragment %}}References from a .bib file{{% /fragment %}}
 
--   Easy way to cite posts?
+-   {{% fragment %}}Easy way to cite posts?{{% /fragment %}}
 
--   Equations with LaTeX syntax, but no LaTeX
+-   {{% fragment %}}Equations {{% /fragment %}}
 
--   Content. Blog about science, or stuff relevant to science but not only (e.g. comparisons of way to fit and present linear models in R).
+-   {{% fragment %}}Content. Blog about science, or stuff relevant to science but not only (e.g. comparisons of way to fit and present linear models in R).{{% /fragment %}}
 
 ------------------------------------------------------------------------
 
 Human part
 ==========
 
--   Accessible. Alt text, contrast. Don't add gate-keeping to science.
+-   {{% fragment %}}Accessible. Alt text, contrast. Don't add gate-keeping to science.{{% /fragment %}}
 
--   You OWN it. Content, URL.
+-   {{% fragment %}}You OWN it. Content, URL.{{% /fragment %}}
 
--   Allow for interactions (social media? commenting?)
+-   {{% fragment %}}Allows for interactions (social media? commenting?){{% /fragment %}}
+
+-   {{% fragment %}}Costs a few dollars a month at most.{{% /fragment %}}
+
+------------------------------------------------------------------------
+
+Let's go
+========
+
+-   {{% fragment %}}distill{{% /fragment %}}
+
+-   {{% fragment %}}Hugo&hugodown{{% /fragment %}}
+
+-   {{% fragment %}}WordPress{{% /fragment %}}
+
+-   {{% fragment %}}Debrief{{% /fragment %}}
+
+------------------------------------------------------------------------
+
+We'll start with a website tour
+===============================
+
+<a href="https://tiny.cc/rmd-blog" class="uri">https://tiny.cc/rmd-blog</a>
 
