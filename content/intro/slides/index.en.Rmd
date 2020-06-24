@@ -62,7 +62,7 @@ What if I don't really want to blog regularly?
 
 ---
 
-# WHAT is is a scientific Rmd blog?
+# WHAT is a scientific Rmd blog?
 
 ---
 
@@ -123,6 +123,6 @@ I'll list criteria so we have something to compare our adventures to.
 
 ---
 
-# We'll start with a website tour
+# We'll start with a tour of the course website
 
 https://tiny.cc/rmd-blog

@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: c0cdae7d6bd5323f
+rmd_hash: a6918e457df8d13e
 
 ---
 
@@ -67,8 +67,8 @@ Why Rmd for blogging?
 
 ------------------------------------------------------------------------
 
-WHAT is is a scientific Rmd blog?
-=================================
+WHAT is a scientific Rmd blog?
+==============================
 
 ------------------------------------------------------------------------
 
@@ -133,8 +133,8 @@ Let's go
 
 ------------------------------------------------------------------------
 
-We'll start with a website tour
-===============================
+We'll start with a tour of the course website
+=============================================
 
 <a href="https://tiny.cc/rmd-blog" class="uri">https://tiny.cc/rmd-blog</a>
 
