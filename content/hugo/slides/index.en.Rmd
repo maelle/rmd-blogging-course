@@ -36,13 +36,29 @@ Experimental but the best bet in my opinion.
 
 # From Rmd to website
 
-Inspired by [Emi Tanaka's post](https://emitanaka.org/r/posts/2018-12-12-scientific-and-technical-blogging-radix-vs-blogdown/)
+Under the hood
 
 ```{=html}
 {{<mermaid align="left">}}
 graph LR;
     A[Rmd] --> |"R ( hugodown :package:, </br> downlit :package:) </br> & Pandoc"| B{md}
     B --> |"Hugo (Goldmark, Chroma)"| C[HTML]
+{{< /mermaid >}}
+```
+
+<small>Inspired by [Emi Tanaka's post](https://emitanaka.org/r/posts/2018-12-12-scientific-and-technical-blogging-radix-vs-blogdown/)</small>
+
+---
+
+# From Rmd to website
+
+What you do
+
+```{=html}
+{{<mermaid align="left">}}
+graph LR;
+    A[Rmd] --> |":large_blue_circle: knit button"| B{md}
+    B --> |"hugo build (locally or cloud)"| C[HTML]
 {{< /mermaid >}}
 ```
 

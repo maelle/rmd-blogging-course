@@ -33,7 +33,8 @@ Helpers like `distill::create_post()`
 
 # From Rmd to website
 
-Inspired by [Emi Tanaka's post](https://emitanaka.org/r/posts/2018-12-12-scientific-and-technical-blogging-radix-vs-blogdown/)
+Under the hood
+
 
 ```{=html}
 {{<mermaid align="left">}}
@@ -41,6 +42,23 @@ graph LR;
     A[Rmd] -->|"R ( distill :package:) & Pandoc & Distill framework" | B[HTML]
 {{< /mermaid >}}
 ```
+
+<small>Inspired by [Emi Tanaka's post](https://emitanaka.org/r/posts/2018-12-12-scientific-and-technical-blogging-radix-vs-blogdown/)</small>
+
+---
+
+# From Rmd to website
+
+What you do
+
+
+```{=html}
+{{<mermaid align="left">}}
+graph LR;
+    A[Rmd] -->|" :large_blue_circle: knit button" | B[HTML]
+{{< /mermaid >}}
+```
+
 
 ---
 
