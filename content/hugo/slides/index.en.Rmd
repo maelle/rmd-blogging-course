@@ -1,7 +1,7 @@
 ---
 outputs:
 - Reveal
-title: Another deck
+title: Hugo & hugodown
 hidden: true
 layout: list
 weight: 1
@@ -11,32 +11,48 @@ reveal_hugo:
 output: hugodown::md_document
 ---
 
-# downlit
+# Hugo and hugodown
+
+A powerful static generator, a handy WIP package
 
 ---
 
-```{r}
-library("magick")
-channel_types()
+# Hugo
+
+Powerful and fast static generator
+
+Only an .exe to install :tada:
+
+---
+
+# hugodown
+
+* An R Markdown output format
+
+* Handy helpers
+
+Experimental but the best bet in my opinion.
+
+---
+
+# From Rmd to website
+
+Inspired by [Emi Tanaka's post](https://emitanaka.org/r/posts/2018-12-12-scientific-and-technical-blogging-radix-vs-blogdown/)
+
+```{=html}
+{{<mermaid align="left">}}
+graph LR;
+    A[Rmd] --> |"R ( hugodown :package:, downlit :package:) & Pandoc"| B{md}
+    B --> |"Hugo (Goldmark, Chroma)"| C[HTML]
+{{< /mermaid >}}
 ```
 
-```r
-library("magick")
-channel_types()
+---
+
+```{=html}
+{{< figure src="/images/highlight.jpg" alt="A meme to explain why downlit is great" height="550" >}}
 ```
 
----
-
-To create a reveal-hugo presentation from the `index.md` file of a leaf page bundle, you need to specify the layout manually.
-
-```toml
-layout = "bundle"
-```
+Inspired by [Mara Averick](https://twitter.com/dataandme/status/1255510799273132032)
 
 ---
-
-Why? By default, reveal-hugo doesn't create pages for single template types (foo.md), only for list template types (_index.md).
-
----
-
-This technique can also be used to output an HTML file for any section of a presentation, should you need to.
