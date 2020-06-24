@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: 6ccae91f1df0b12e
+rmd_hash: c0cdae7d6bd5323f
 
 ---
 
@@ -56,6 +56,16 @@ What if I don't really want to blog regularly?
 
 <!--/html_preserve-->
 ---------------------
+
+Why Rmd for blogging?
+=====================
+
+-   {{% fragment %}}Data analysis with R{{% /fragment %}}
+-   {{% fragment %}}Blogging about R{{% /fragment %}}
+-   {{% fragment %}}R as an utility tool e.g. to generate text from structured data{{% /fragment %}}
+-   {{% fragment %}}knitr supports other languages...{{% /fragment %}}
+
+------------------------------------------------------------------------
 
 WHAT is is a scientific Rmd blog?
 =================================
