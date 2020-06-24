@@ -94,7 +94,7 @@ I'll list criteria so we have something to compare our adventures to.
 
 * {{% fragment %}}Accessible. Alt text, contrast. Don't add gate-keeping to science.{{% /fragment %}}
 
-* {{% fragment %}}You OWN it. Content, URL.{{% /fragment %}}
+* {{% fragment %}}You OWN it. Content, URL (no commercial service, no employer).{{% /fragment %}}
 
 * {{% fragment %}}Allows for interactions (social media? commenting?){{% /fragment %}}
 
