@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: 7fd83f45c5f596de
+rmd_hash: 9a45979fc8885164
 
 ---
 
@@ -93,7 +93,7 @@ Science part
 
 -   {{% fragment %}}Equations {{% /fragment %}}
 
--   {{% fragment %}}Content. Blog about science, or stuff relevant to science but not only (e.g. comparisons of way to fit and present linear models in R).{{% /fragment %}}
+-   {{% fragment %}}Content. Blog about science, or stuff relevant to science&co (e.g. comparisons of way to fit and present linear models in R).{{% /fragment %}}
 
 ------------------------------------------------------------------------
 

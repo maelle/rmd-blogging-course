@@ -86,7 +86,7 @@ I'll list criteria so we have something to compare our adventures to.
 
 * {{% fragment %}}Equations {{% /fragment %}}
 
-* {{% fragment %}}Content. Blog about science, or stuff relevant to science but not only (e.g. comparisons of way to fit and present linear models in R).{{% /fragment %}}
+* {{% fragment %}}Content. Blog about science, or stuff relevant to science&co (e.g. comparisons of way to fit and present linear models in R).{{% /fragment %}}
 
 ---
 
