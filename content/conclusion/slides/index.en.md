@@ -1,12 +1,12 @@
 ---
 outputs:
 - Reveal
-title: Scientific R Markdown blog?
+title: Conclusion
 hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: fae83fa59740c109
+rmd_hash: 681e8b350fe25e69
 
 ---
 
