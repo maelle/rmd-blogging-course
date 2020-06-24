@@ -5,11 +5,8 @@ title: R Markdown & WordPress
 hidden: true
 layout: list
 weight: 1
-reveal_hugo:
-  theme: "solarized"
-  margin: 0.2
 output: hugodown::md_document
-rmd_hash: 1c1b2dd2afa6e08f
+rmd_hash: 6c8a137af18fbe9c
 
 ---
 
@@ -75,6 +72,18 @@ wordpress.com vs wordpress.org
 -   Your own local server: efforts
 
 -   Paid service hosting+domain name+ WordPress install: a few \$ a month
+
+------------------------------------------------------------------------
+
+From Rmd to website
+===================
+
+{{<mermaid align="left">}}
+graph LR;
+    A[Rmd] --> |"R ( hugodown :package:, </br> downlit :package:) </br> & Pandoc"| B{md}
+    B --> |"R (xml2 :package: ) </br> & Pandoc"| C[HTML]
+    C --> |"WordPress"| D[HTML]
+{{< /mermaid >}}
 
 ------------------------------------------------------------------------
 

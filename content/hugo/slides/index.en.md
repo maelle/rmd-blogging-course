@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: 7ebcfd6d53b0a927
+rmd_hash: 691efd02dbce5722
 
 ---
 
@@ -46,7 +46,7 @@ Inspired by [Emi Tanaka's post](https://emitanaka.org/r/posts/2018-12-12-scienti
 
 {{<mermaid align="left">}}
 graph LR;
-    A[Rmd] --> |"R ( hugodown :package:, downlit :package:) & Pandoc"| B{md}
+    A[Rmd] --> |"R ( hugodown :package:, </br> downlit :package:) </br> & Pandoc"| B{md}
     B --> |"Hugo (Goldmark, Chroma)"| C[HTML]
 {{< /mermaid >}}
 

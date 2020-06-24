@@ -5,9 +5,6 @@ title: R Markdown & WordPress
 hidden: true
 layout: list
 weight: 1
-reveal_hugo:
-  theme: "solarized"
-  margin: 0.2
 output: hugodown::md_document
 ---
 
@@ -66,6 +63,20 @@ So your choice is between a too old tool and my WIP package. :joy:
 * Your own local server: efforts
 
 * Paid service hosting+domain name+ WordPress install: a few $ a month
+
+---
+
+# From Rmd to website
+
+```{=html}
+{{<mermaid align="left">}}
+graph LR;
+    A[Rmd] --> |"R ( hugodown :package:, </br> downlit :package:) </br> & Pandoc"| B{md}
+    B --> |"R (xml2 :package: ) </br> & Pandoc"| C[HTML]
+    C --> |"WordPress"| D[HTML]
+{{< /mermaid >}}
+```
+
 
 ---
 
