@@ -5,11 +5,8 @@ title: Promotion
 hidden: true
 layout: list
 weight: 1
-reveal_hugo:
-  theme: "solarized"
-  margin: 0.2
 output: hugodown::md_document
-rmd_hash: 6067e0f70e953226
+rmd_hash: 017243bbb953099d
 
 ---
 

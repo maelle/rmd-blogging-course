@@ -5,11 +5,8 @@ title: Workflows
 hidden: true
 layout: list
 weight: 1
-reveal_hugo:
-  theme: "solarized"
-  margin: 0.2
 output: hugodown::md_document
-rmd_hash: 8342ea406ec56f26
+rmd_hash: d72ca81ec9ad4774
 
 ---
 
