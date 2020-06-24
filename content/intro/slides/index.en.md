@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: a6918e457df8d13e
+rmd_hash: 99ebc98e9b8b1450
 
 ---
 
@@ -128,6 +128,10 @@ Let's go
 -   {{% fragment %}}Hugo&hugodown{{% /fragment %}}
 
 -   {{% fragment %}}WordPress{{% /fragment %}}
+
+-   {{% fragment %}}Reproducibility{{% /fragment %}}
+
+-   {{% fragment %}}Promotion{{% /fragment %}}
 
 -   {{% fragment %}}Debrief{{% /fragment %}}
 

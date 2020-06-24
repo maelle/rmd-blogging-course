@@ -119,6 +119,10 @@ I'll list criteria so we have something to compare our adventures to.
 
 * {{% fragment %}}WordPress{{% /fragment %}}
 
+* {{% fragment %}}Reproducibility{{% /fragment %}}
+
+* {{% fragment %}}Promotion{{% /fragment %}}
+
 * {{% fragment %}}Debrief{{% /fragment %}}
 
 ---
