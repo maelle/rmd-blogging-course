@@ -30,6 +30,13 @@ Collaborative website: even Hugo users might not know your website structure!
 
 * [golemverse website contributing guide](https://github.com/ThinkR-open/golemverse.org/blob/master/how-to.Rmd)
 
+## Where to get help? :wave:
+
+* [RStudio community forum](https://community.rstudio.com/c/R-Markdown/10) (RMarkdown category)
+
+* [hugodown issue tracker](https://github.com/r-lib/hugodown/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
+
+* If you start tweaking Hugo templates, [Hugo forum](https://discourse.gohugo.io/)
 
 ## Another R package: blogdown
 

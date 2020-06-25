@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: 9906b4db14f3bb3c
+rmd_hash: 059ff466d1668ff5
 
 ---
 
@@ -62,6 +62,24 @@ Change your mind?
 -   `yaml`, `commonmark` packages, etc.
 
 -   Redirects! URLs are important. 404 page.
+
+------------------------------------------------------------------------
+
+Have fun!
+=========
+
+If you're worried about blogging, find a blogging buddy to read your drafts?
+
+Make efforts but don't be perfectionist.
+
+------------------------------------------------------------------------
+
+Regular blogging?
+=================
+
+No you don't have to unless you call your blog "the daily blog" or so. :wink:
+
+Only write if you enjoy it!
 
 ------------------------------------------------------------------------
 

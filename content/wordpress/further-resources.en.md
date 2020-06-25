@@ -23,6 +23,12 @@ I have shown all there is to [`goodpress`](https://github.com/maelle/goodpress),
 
 I'd be glad to help you with R package development tips if you feel you're a n00b.
 
+## Where to get help? :wave:
+
+* [goodpress issue tracker](https://github.com/maelle/goodpress/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
+
+* About WordPress itself, [WordPress forums](https://wordpress.org/support/forums/)
+
 ## Migrate your content to a static website?
 
 No judgement on your using WordPress, of course! Keep going! :rocket:
