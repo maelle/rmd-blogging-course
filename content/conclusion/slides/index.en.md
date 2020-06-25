@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: 681e8b350fe25e69
+rmd_hash: 9906b4db14f3bb3c
 
 ---
 
@@ -48,14 +48,9 @@ Does any of you want to say what they'd choose and why?
 True for all
 ============
 
-Backup! :warning:
+-   Read the docs and follow development! :eyes:
 
-------------------------------------------------------------------------
-
-Follow development
-==================
-
-Keep track of what happens with your website generator
+-   Backup! :warning:
 
 ------------------------------------------------------------------------
 
@@ -66,7 +61,7 @@ Change your mind?
 
 -   `yaml`, `commonmark` packages, etc.
 
--   Redirects! URLs are important.
+-   Redirects! URLs are important. 404 page.
 
 ------------------------------------------------------------------------
 

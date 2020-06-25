@@ -6,7 +6,8 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: 5ffa4d92271354a9
+countdown: true
+rmd_hash: ef178c51149d158e
 
 ---
 
@@ -165,7 +166,7 @@ Time for a break :tea:
 
 <!--html_preserve-->
 
-<div id="timer_5ee3a3da" class="countdown" style="top:100;left:0;" data-warnwhen="0">
+<div id="timer_hugo" class="countdown" style="top:100;left:0;" data-warnwhen="0">
 
 <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 

@@ -1,17 +1,19 @@
 ---
-title: More about WordPress
+title: More about WordPress & goodpress
 menuTitle: Further resources
 weight: 50
 ---
 
-## Read about WordPress
+## Read the manual :wink:
 
-In your usual WordPress channels.
+* [goodpress docs](https://maelle.github.io/goodpress/)
+
+* Read about WordPress in your usual WordPress channels.
 And contribute good WordPress general resources to this repo. :wink:
 
 It's good to know how your website infrastructure evolves and works.
 
-## Contribute to goodpress?
+## Follow development :eyes: and contribute to goodpress!
 
 I have shown all there is to [`goodpress`](https://github.com/maelle/goodpress), if you want more you might contribute 
 

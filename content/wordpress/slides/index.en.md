@@ -6,7 +6,8 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: c69b623340e1a452
+countdown: true
+rmd_hash: 58fe8c6a016bfadd
 
 ---
 
@@ -58,7 +59,7 @@ Now, Rmd and WordPress!
 
 -   I made a package using WordPress REST API v2!
 
-So your choice is between a too old tool and my WIP package. :joy:
+So your choice is between a too old tool and my WIP package. :joy: :sob:
 
 ------------------------------------------------------------------------
 
@@ -103,25 +104,27 @@ graph LR;
 
 ------------------------------------------------------------------------
 
-Setup for goodpress (0/2)
+Setup for goodpress (0/3)
 =========================
 
 Have a WordPress website that's not a free/cheap plan from wordpress.com :wink:
 
+[goodpress setup vignette](https://maelle.github.io/goodpress/articles/setup.html)
+
 ------------------------------------------------------------------------
 
-Setup for goodpress (1/2)
+Setup for goodpress (1/3)
 =========================
 
 -   Install the [Application Passwords plugin](https://wordpress.org/plugins/application-passwords/)
 
 -   Edit [.htaccess](https://github.com/WordPress/application-passwords/wiki/Basic-Authorization-Header----Missing) (with a plugin?)
 
--   Create an user with limited rights, and an application password for them
+-   Create an user with limited rights, and an application password for them. Save secrets in `.Renviron`
 
 ------------------------------------------------------------------------
 
-Setup for goodpress (2/2)
+Setup for goodpress (2/3)
 =========================
 
 For R syntax highlighting :sparkles:
@@ -129,4 +132,88 @@ For R syntax highlighting :sparkles:
 -   Find [my code.css](https://github.com/maelle/goodpress/blob/main/inst/css/code.css) and copy it to your clipboard.
 
 -   From your WordPress admin dasbhoard, go to Appearance &gt; Customize &gt; Additional CSS. Paste the CSS there and click on publish.
+
+------------------------------------------------------------------------
+
+Setup for goodpress (3/3)
+=========================
+
+If you want to use MathJax for equations.
+
+From WordPress interface go to Appearance &gt; Theme Editor. In `<head>` div of `header.php`, then save.
+
+``` html
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+```
+
+------------------------------------------------------------------------
+
+:mountain_railway: Time for a demo!
+
+[Notes on the course website](/wordpress/demo/)
+
+------------------------------------------------------------------------
+
+Scientific Rmd Blog Checklist
+
+-   [x] R Markdown
+-   [x] Syntax highlighting (for R)
+-   [x] Modern
+-   [x] .bib
+-   \[?\] Citation for posts (add it to all posts? WordPress theme?)
+-   [x] Equations
+
+------------------------------------------------------------------------
+
+Sustainability
+==============
+
+Created by:
+
+<div class="highlight">
+
+Maëlle Salmon
+
+</div>
+
+[Contributors welcome](https://github.com/maelle/goodpress/).
+
+------------------------------------------------------------------------
+
+Limitations?
+============
+
+-   WordPress limitations (performance? security? how to tweak a theme)
+
+-   goodpress is an experimental package written by someone who doesn't know WordPress :see_no_evil:
+
+------------------------------------------------------------------------
+
+Further resources
+=================
+
+[Listed on the course website](/wordpress/further-resources/) :bookmark_tabs:
+
+------------------------------------------------------------------------
+
+Questions, comments?
+====================
+
+Write them in the pad!
+
+------------------------------------------------------------------------
+
+Time for a break :tropical_drink:
+=================================
+
+<!--html_preserve-->
+
+<div id="timer_wordpress" class="countdown" style="top:100;left:0;" data-warnwhen="0">
+
+<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+
+</div>
+
+<!--/html_preserve-->
 
