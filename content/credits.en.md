@@ -5,6 +5,10 @@ disableToc: true
 
 Thank you!
 
+## Funding
+
+The first version of this workshop is supported by the German Federal Ministry of Education and Research as part of [a series of 3 workshops on research data management](https://wiho-fdm.github.io/).
+
 ## Hugo experts
 
 Fellow Hugo fans, who taught me a lot via their public materials and useful convos!
