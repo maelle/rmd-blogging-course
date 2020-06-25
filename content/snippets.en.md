@@ -1620,7 +1620,7 @@ $$x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}} $$
 
 ## Plot
 
-```{r}
+```{r plot-hist}
 hist(rnorm(10000))
 ```
 
