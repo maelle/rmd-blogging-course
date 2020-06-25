@@ -71,7 +71,7 @@ No syntax highlighting :expressionless:
 </code></pre>
 ```
 
-Chroma syntax highlighting :simple_smile:
+Chroma syntax highlighting :+1:
 
 ````{=html}
 ```r
@@ -113,10 +113,10 @@ Inspired by [Mara Averick](https://twitter.com/dataandme/status/1255510799273132
 Scientific Rmd Blog Checklist
 
 * [x] R Markdown
-* [x] Syntax highlighting (for all knitr-supported languages)
+* [x] Syntax highlighting
 * [x] Modern
 * [x] .bib
-* [x] Citation for posts
+* [?] Citation for posts (possible but custom layout)
 * [x] Equations
 
 ---

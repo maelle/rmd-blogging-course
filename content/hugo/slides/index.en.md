@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: 96e2b429e87643ba
+rmd_hash: 5ffa4d92271354a9
 
 ---
 
@@ -17,8 +17,8 @@ A powerful static generator, a handy WIP package
 
 ------------------------------------------------------------------------
 
-Hugo
-====
+[Hugo](https://gohugo.io/)
+==========================
 
 Powerful and fast static generator
 
@@ -26,10 +26,10 @@ Only an .exe to install :tada:
 
 ------------------------------------------------------------------------
 
-hugodown
-========
+[hugodown](https://hugodown.r-lib.org/)
+=======================================
 
-R :package:
+[R :package:](https://hugodown.r-lib.org/)
 
 -   An R Markdown output format
 
@@ -67,18 +67,18 @@ graph LR;
 
 ------------------------------------------------------------------------
 
-No syntax highlighting
+No syntax highlighting :expressionless:
 
 <pre><code>ggplot2::ggplot()
 </code></pre>
 
-Chroma
+Chroma syntax highlighting :+1:
 
 ```r
 ggplot2::ggplot()
 ```
 
-downlit
+downlit syntax highlighting :smiley:
 
 <div class="highlight">
 
@@ -112,10 +112,10 @@ hugodown syntax highlighting
 Scientific Rmd Blog Checklist
 
 -   [x] R Markdown
--   [x] Syntax highlighting (for all knitr-supported languages)
+-   [x] Syntax highlighting
 -   [x] Modern
 -   [x] .bib
--   [x] Citation for posts
+-   \[?\] Citation for posts (possible but custom layout)
 -   [x] Equations
 
 ------------------------------------------------------------------------
@@ -133,7 +133,7 @@ Hadley Wickham \[aut, cre\]
 
 Used for [tidyverse.org](https://tidyverse.org), in particular.
 
-Active development.
+[Active development](https://github.com/r-lib/hugodown/).
 
 ------------------------------------------------------------------------
 
