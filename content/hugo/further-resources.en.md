@@ -1,6 +1,6 @@
 ---
 menuTitle: Further resources
-title: More about Hugo
+title: More about Hugo & hugodown
 weight: 5
 ---
 
@@ -8,9 +8,17 @@ weight: 5
 
 You can read the [whole hugodown docs](https://hugodown.r-lib.org/) and probably should especially as hugodown evolves.
 
-Also read the docs of the theme you choose, and follow its development.
+Also read the docs of the theme you choose.
 
 You might not need to read [Hugo docs](https://gohugo.io/documentation/), that are much longer, much more overwhelming: you mostly only need to read Hugo docs when you need to tweak or customize a theme.
+
+## Follow developments? :eyes:
+
+If you start using Hugo & hugodown for your website...
+
+* [Watch development on GitHub](https://help.github.com/en/github/managing-subscriptions-and-notifications-on-github/viewing-your-subscriptions#configuring-your-watch-settings-for-an-individual-repository) of hugodown, of the theme?
+
+* Subscribe to the [hugodown issues](https://github.com/r-lib/hugodown/issues) that are interesting to you?
 
 ## Contributing guide for your website
 

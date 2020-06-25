@@ -59,6 +59,8 @@ What if I don't really want to blog regularly?
 
 * non static: more machinery on the server side
 
+Online server somewhere.
+
 ---
 
 # Why Rmd for blogging?

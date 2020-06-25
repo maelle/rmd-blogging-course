@@ -14,7 +14,7 @@ A powerful static generator, a handy WIP package
 
 ---
 
-# Hugo
+# [Hugo](https://gohugo.io/)
 
 Powerful and fast static generator
 
@@ -22,9 +22,9 @@ Only an .exe to install :tada:
 
 ---
 
-# hugodown
+# [hugodown](https://hugodown.r-lib.org/)
 
-R :package:
+[R :package:](https://hugodown.r-lib.org/)
 
 * An R Markdown output format
 
@@ -64,6 +64,29 @@ graph LR;
 
 ---
 
+No syntax highlighting :expressionless:
+
+```{=html}
+<pre><code>ggplot2::ggplot()
+</code></pre>
+```
+
+Chroma syntax highlighting :simple_smile:
+
+````{=html}
+```r
+ggplot2::ggplot()
+```
+````
+
+downlit syntax highlighting :smiley:
+
+```{r, eval = FALSE}
+ggplot2::ggplot()
+```
+
+---
+
 ```{=html}
 {{< figure src="/images/highlight.jpg" alt="A meme to explain why downlit is great" height="550" >}}
 ```
@@ -71,3 +94,81 @@ graph LR;
 Inspired by [Mara Averick](https://twitter.com/dataandme/status/1255510799273132032)
 
 ---
+
+# hugodown syntax highlighting
+
+* downlit for R :tada:
+
+* Chroma for other languages :sparkles:
+
+
+---
+
+:mountain_cableway: Time for a demo!
+
+[Notes on the course website](/hugo/demo/)
+
+---
+
+Scientific Rmd Blog Checklist
+
+* [x] R Markdown
+* [x] Syntax highlighting (for all knitr-supported languages)
+* [x] Modern
+* [x] .bib
+* [x] Citation for posts
+* [x] Equations
+
+---
+
+# Sustainability
+
+Created by:
+
+```{r, echo=FALSE, results="asis"}
+glue::glue_collapse(
+  trimws(
+  gsub("<.*>", "",
+  desc::desc_get_author(file = find.package("hugodown"), role = "aut")
+  )
+  ), 
+  sep = ", ")
+```
+
+Used for [tidyverse.org](https://tidyverse.org), in particular.
+
+[Active development](https://github.com/r-lib/hugodown/).
+
+---
+
+# Limitations?
+
+* hugodown is a WIP package
+
+* Hugo changes a lot (but hugodown helps protect your projects from that)
+
+---
+
+# Further resources
+
+[Listed on the course website](/hugo/further-resources/) :ledger:
+
+---
+
+# Questions, comments?
+
+Write them in the pad!
+
+---
+
+# Time for a break  :tea:
+
+<!--html_preserve-->
+
+<div id="timer_5ee3a3da" class="countdown" style="top:100;left:0;" data-warnwhen="0">
+
+<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+
+</div>
+
+<!--/html_preserve-->

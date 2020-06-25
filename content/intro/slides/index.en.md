@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: a360811608d485b9
+rmd_hash: 348c660ed439e66c
 
 ---
 
@@ -63,6 +63,8 @@ What is a website?
 -   static: HTML, CSS, JS
 
 -   non static: more machinery on the server side
+
+Online server somewhere.
 
 ------------------------------------------------------------------------
 

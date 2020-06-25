@@ -16,8 +16,6 @@ output: hugodown::md_document
 
 - `usethis::use_git()`
 
-- `usethis::use_github()`
-
 - change site but not URL, and about. change citations: true!!!
 
 - rebuild the site via RStudio build button or `rmarkdown::render_site()`.
@@ -56,6 +54,6 @@ output: hugodown::md_document
 
 - mention git checkout -b and [the distill docs about blog post workflows](https://rstudio.github.io/distill/blog_workflow.html).
 
-- Other options for deployment
+- Other options for deployment (Netlify link to repo, [distill docs](https://rstudio.github.io/distill/publish_website.html))
 
 - add Twitter&GitHub
