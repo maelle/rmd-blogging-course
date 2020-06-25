@@ -4,7 +4,7 @@ weight: 3
 chapter: true
 slides: true
 output: hugodown::md_document
-rmd_hash: 45e53c79e5722743
+rmd_hash: b6610e2d051f0155
 
 ---
 
@@ -12,5 +12,5 @@ We'll explore [Hugo](https://gohugo.io/documentation/) with [hugodown](https://h
 
 Note that Hugo changes fast. Exciting (more features!) and scary (broken websites).
 
-The hugodown package by Hadley Wickham is itself an experimental R package (trustworthy though!), but it pins a Hugo version to projects.
+The hugodown package is itself an experimental R package, but it pins a Hugo version to projects.
 
