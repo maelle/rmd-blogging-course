@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: 017243bbb953099d
+rmd_hash: fd9cb1bdeb5b368e
 
 ---
 
@@ -59,6 +59,19 @@ Interact with readers
 On social media?
 
 In comments? For Hugo, [Utteranc.es as an alternative to Disqus](https://masalmon.eu/2019/10/02/disqus/).
+
+------------------------------------------------------------------------
+
+Negative feedback
+=================
+
+(not constructive feedback)
+
+Have a support system.
+
+You don't have to respond publicly, or at all.
+
+If *you* were wrong, listen and do better.
 
 ------------------------------------------------------------------------
 
