@@ -38,6 +38,10 @@ Collaborative website: even Hugo users might not know your website structure!
 
 * If you start tweaking Hugo templates, [Hugo forum](https://discourse.gohugo.io/)
 
+## Other Hugo themes
+
+* browse the [gallery](https://themes.gohugo.io/). Last update, number of stars. Use Hugo docs to create new site.
+
 ## Another R package: blogdown
 
 [blogdown](https://bookdown.org/yihui/blogdown/) is an alternative to hugodown. [hugodown vs blogdown](https://hugodown.r-lib.org/#compared-to-blogdown)

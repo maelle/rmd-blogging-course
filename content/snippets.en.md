@@ -1625,3 +1625,9 @@ hist(rnorm(10000))
 ```
 
 ````
+
+## head_custom.html
+
+```html
+<link rel="stylesheet" type="text/css" href="/code.css">
+```

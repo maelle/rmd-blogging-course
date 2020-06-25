@@ -10,4 +10,42 @@ output: hugodown::md_document
 
 - install the hugodown package, `remotes::install_github("r-lib/hugodown")`
 
-- 
+-  install Hugo. new RStudio empty project.
+
+- `hugo new site . --force` from the command line in that new folder.
+
+- Download https://github.com/yihui/hugo-xmin and put into themes, remove "-master" from the folder name, delete example site.
+
+- Copy paste https://github.com/yihui/hugo-xmin/blob/master/exampleSite/config.toml
+
+- `hugodown::hugo_start()`
+
+- copy-paste from [hugodown setup vignette](https://hugodown.r-lib.org/articles/config.html)
+
+- create static/code.css from https://github.com/maelle/goodpress/blob/main/inst/css/code.css and create layouts/partial/head_custom.html according to https://xmin.yihui.org/about/ (one should read theme docs!)
+
+- create post in post and copy-paste from snippets page. knit, preview.
+
+- add maths, citations.
+
+- for mathjax copy paste from https://xmin.yihui.org/about/ and say one should always read the docs!
+
+- Netlify drag and drop
+
+- then something easier from the code point of view but more overwhelming!
+
+- create empty RStudio project (with git if it's available)
+
+- `hugodown::hugo_install('0.66.0')`
+
+- `hugodown::create_site_academic()`
+
+- `hugodown::hugo_start(render_to_disk = TRUE)`, open localhost in the browser.
+
+- Change site title in config/_default/params.toml.
+
+- Mention academic docs, all the things one can change.
+
+- `hugodown::use_post("post/new-rmd-post")`, knit, see post.
+
+- say there will probably be other themes later. show Hugo theme gallery and how I would choose themes.
