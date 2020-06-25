@@ -1570,3 +1570,58 @@ navbar:
     - icon: fa fa-github
       href: https://github.com/maelle
 ```
+
+## goodpress post
+
+````markdown
+---
+title: "Post created with Rmd yay"
+date: "2020-06-25T00:00:00"
+slug: "post-slug"
+excerpt: "Here I summarize this fantastic post"
+status: "publish"
+output: hugodown::md_document
+categories:
+  - math
+  - Code and Stuff
+tags:
+  - crul
+  - mathjax
+  - R packages
+comment_status: open
+ping_status: open
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Nice subsection
+
+[A link](https://masalmon.eu)
+
+Some inline code, `crul::ok()`.
+
+```{r eval=FALSE}
+usethis::use_git()
+ggplot(mtcars)
+plot(1:19)
+a <- TRUE
+```
+
+## Maths
+
+When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
+$$x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}} $$
+
+
+## Plot
+
+```{r}
+hist(rnorm(10000))
+```
+
+````
