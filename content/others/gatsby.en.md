@@ -9,7 +9,7 @@ So if you like either React or GraphQL or want to learn them, check out Gatsby!
 
 {{% notice info %}}
 Robert Myles wrote a [tool for .Rmd to .mdx](https://github.com/RobertMyles/writeMDX), 
-introduced in the blog post [From R to Gatsby](https://www.robertmylesmcdonnell.com/content/posts/rtogatsby/).
+introduced in the blog post [From R to Gatsby](https://www.robertmylesmcdonnell.com/content/posts/rtogatsby/). [Source of Robert Myles' website](https://github.com/RobertMyles/site).
 {{% /notice %}}
 
 Example of other websites:
@@ -17,6 +17,10 @@ Example of other websites:
 * [ggplot2tor](https://ggplot2tor.com/)
 
 * [Krist Wongsuphasawat's website](https://kristw.yellowpigz.com/)
+
+* [Ben Lindsay's website](https://benjlindsay.com/)
+
+* [Neal Grantham's website](https://www.nsgrantham.com/)
 
 * [openFDA](https://open.fda.gov/), [source](https://github.com/FDA/open.fda.gov)
 
