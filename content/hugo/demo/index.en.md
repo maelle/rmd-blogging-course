@@ -4,7 +4,7 @@ menuTitle: Demo
 weight: 5
 slides: true
 output: hugodown::md_document
-rmd_hash: 3a35102882bfc554
+rmd_hash: e1e29e2bd8d7016b
 
 ---
 
@@ -44,7 +44,7 @@ rmd_hash: 3a35102882bfc554
 
 -   [`hugodown::hugo_start(render_to_disk = TRUE)`](https://rdrr.io/pkg/hugodown/man/hugo_start.html), open localhost in the browser.
 
--   Change site title in config/\_default/params.toml.
+-   Change site title and [theme](https://sourcethemes.com/academic/themes/) in config/\_default/params.toml. Yes a theme for a theme!
 
 -   Mention academic docs, all the things one can change.
 

@@ -78,6 +78,9 @@ To give a less technical interface to a Hugo website, you could use a CMS, see f
 
 ## Hugo Academic
 
+Hugo Academic has [excellent docs](https://sourcethemes.com/academic/docs/).
+
 You can build many different websites with Hugo Academic, check out [Alison Hill's work](https://ysc-rmarkdown.netlify.app/) and also [Yanina Bellini's work](https://yabellini.netlify.app/).
+The theme is very versatile, and widely used in the R community.
 
 There's a [Python CLI to import your publications](https://github.com/sourcethemes/academic-admin), featured in [the blog post "Fixing Imports to Hugo"](https://dyerlab.org/post/fixing-imports-to-hugo/)
