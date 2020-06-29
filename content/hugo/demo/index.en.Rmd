@@ -10,7 +10,9 @@ output: hugodown::md_document
 
 - install the hugodown package, `remotes::install_github("r-lib/hugodown")`
 
--  install Hugo. new RStudio empty project.
+- `hugodown::hugo_install()`
+
+- new RStudio empty project.
 
 - `hugo new site . --force` from the command line in that new folder.
 
@@ -18,17 +20,23 @@ output: hugodown::md_document
 
 - Copy paste https://github.com/yihui/hugo-xmin/blob/master/exampleSite/config.toml
 
+- Create `_hugodown.yaml` with `hugo_version: 0.73.0`
+
 - `hugodown::hugo_start()`
+
+- add about.md
 
 - copy-paste from [hugodown setup vignette](https://hugodown.r-lib.org/articles/config.html)
 
 - create static/code.css from https://github.com/maelle/goodpress/blob/main/inst/css/code.css and create layouts/partial/head_custom.html according to https://xmin.yihui.org/about/ (one should read theme docs!)
 
-- create post in post and copy-paste from snippets page. knit, preview.
+- create post in content/post/2020-06-25-cool/index.Rmd and copy-paste from snippets page. knit, preview.
 
 - add maths, citations.
 
 - for mathjax copy paste from https://xmin.yihui.org/about/ and say one should always read the docs!
+
+- `hugodown::hugo_stop()`, `hugodown::hugo_start(render_to_disk = TRUE)`
 
 - Netlify drag and drop
 
@@ -38,7 +46,7 @@ output: hugodown::md_document
 
 - `hugodown::hugo_install('0.66.0')`
 
-- `hugodown::create_site_academic()`
+- `hugodown::create_site_academic()`. Be happy to see everythin happening automatically :sparkles:
 
 - `hugodown::hugo_start(render_to_disk = TRUE)`, open localhost in the browser.
 
@@ -49,3 +57,5 @@ output: hugodown::md_document
 - `hugodown::use_post("post/new-rmd-post")`, knit, see post.
 
 - say there will probably be other themes later. show Hugo theme gallery and how I would choose themes.
+
+- `use_github()`, add netlify.toml.

@@ -144,7 +144,7 @@ Used for [tidyverse.org](https://tidyverse.org), in particular.
 
 # Limitations?
 
-* hugodown is a WIP package
+* hugodown is a WIP package. One easy to use theme only at the moment, but a great one!
 
 * Hugo changes a lot (but hugodown helps protect your projects from that)
 

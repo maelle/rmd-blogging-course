@@ -7,7 +7,7 @@ layout: list
 weight: 1
 output: hugodown::md_document
 countdown: true
-rmd_hash: ef178c51149d158e
+rmd_hash: 81064851377395ba
 
 ---
 
@@ -141,7 +141,7 @@ Used for [tidyverse.org](https://tidyverse.org), in particular.
 Limitations?
 ============
 
--   hugodown is a WIP package
+-   hugodown is a WIP package. One easy to use theme only at the moment, but a great one!
 
 -   Hugo changes a lot (but hugodown helps protect your projects from that)
 
