@@ -22,10 +22,12 @@ If you start using distill for your website...
 
 | Website | Source |
 |---|---|
+|[Scholarly Communication Analytics](https://subugoe.github.io/scholcomm_analytics/)| [<i class='fab fa-fw fa-github'>](https://github.com/subugoe/scholcomm_analytics) |
 | [RStudio AI Blog](https://blogs.rstudio.com/ai/) | [<i class='fab fa-fw fa-github'>](https://github.com/rstudio/ai-blog) |
 | [The Mockup Blog by Tom Mock](https://themockup.blog/) | [<i class='fab fa-fw fa-github'>](https://github.com/jthomasmock/radix_themockup) |
 | [Michael Clark's personal website](https://m-clark.github.io/) | [<i class='fab fa-fw fa-github'>](https://github.com/m-clark/m-clark.github.io) |
 | [Antoine Bichat's personal website](https://abichat.github.io/) | [<i class='fab fa-fw fa-github'>](https://github.com/abichat/abichat.github.io) |
+
 
 ### A few more links
 
