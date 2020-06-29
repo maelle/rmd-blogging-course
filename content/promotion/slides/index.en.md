@@ -1,12 +1,12 @@
 ---
 outputs:
 - Reveal
-title: Promotion
+title: Readers
 hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: fd9cb1bdeb5b368e
+rmd_hash: 215653ad9f567b4b
 
 ---
 
@@ -53,8 +53,24 @@ Write a clear text, post URL, add a few hashtags, image (or carefully crafted in
 
 ------------------------------------------------------------------------
 
+SEO
+===
+
+Search Engine Optimization
+
+-   Add links to your post
+
+-   Read resources by marketers
+
+------------------------------------------------------------------------
+
 Interact with readers
 =====================
+
+------------------------------------------------------------------------
+
+How to interact with readers?
+=============================
 
 On social media?
 
@@ -75,14 +91,24 @@ If *you* were wrong, listen and do better.
 
 ------------------------------------------------------------------------
 
-SEO
-===
+Encouraging citations
+=====================
 
-Search Engine Optimization
+------------------------------------------------------------------------
 
--   Add links to your post
+Citing your posts
+=================
 
--   Read resources by marketers
+-   Distill metadata
+
+-   Hugo [custom layout](https://github.com/statnmap/hugo-statnmap-theme/blob/3e2a54a9836fdd65779865e91058ba304b628336/layouts/partials/citation.html)
+
+-   [DOI](https://twitter.com/mfenner/status/1126523120591020032)?
+
+------------------------------------------------------------------------
+
+Analytics
+=========
 
 ------------------------------------------------------------------------
 

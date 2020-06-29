@@ -1,15 +1,15 @@
 ---
-title: Promotion
+title: Readers
 weight: 5
 chapter: true
 slides: true
 output: hugodown::md_document
-rmd_hash: 9667fb70314a2660
+rmd_hash: 0b4574a0f75ea15b
 
 ---
 
-Blog promotion
+Around readers
 ==============
 
-How can you help your blog gain a readership? Write good content, and then?
+A few tips about promoting your blog & interacting with readers.
 

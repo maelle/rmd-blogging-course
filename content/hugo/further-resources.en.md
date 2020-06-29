@@ -1,7 +1,7 @@
 ---
 menuTitle: Further resources
 title: More about Hugo & hugodown
-weight: 5
+weight: 7
 ---
 
 ## Read the manual :wink:
@@ -20,7 +20,7 @@ If you start using Hugo & hugodown for your website...
 
 * Subscribe to the [hugodown issues](https://github.com/r-lib/hugodown/issues) that are interesting to you?
 
-## Contributing guide for your website
+## Contributing guide for your website :pencil:
 
 Personal website: take notes to not forget what you tweaked, etc.
 
@@ -38,15 +38,31 @@ Collaborative website: even Hugo users might not know your website structure!
 
 * If you start tweaking Hugo templates, [Hugo forum](https://discourse.gohugo.io/)
 
-## Other Hugo themes
 
-* browse the [gallery](https://themes.gohugo.io/). Last update, number of stars. Use Hugo docs to create new site.
+## Hugo Academic :mortar_board:
 
-## Another R package: blogdown
+Hugo Academic has [excellent docs](https://sourcethemes.com/academic/docs/).
+
+You can build many different websites with Hugo Academic, check out [Alison Hill's work](https://ysc-rmarkdown.netlify.app/) and also [Yanina Bellini's work](https://yabellini.netlify.app/).
+The theme is very versatile, and widely used in the R community.
+
+There's a [Python CLI to import your publications](https://github.com/sourcethemes/academic-admin), featured in [the blog post "Fixing Imports to Hugo"](https://dyerlab.org/post/fixing-imports-to-hugo/)
+
+## Other Hugo themes :school_satchel:
+
+* Browse the [gallery](https://themes.gohugo.io/). [Choose your theme wisely](https://masalmon.eu/2020/02/29/hugo-maintenance/#choose-your-theme-wisely-and-keep-in-touch). Use Hugo docs to create new site.
+
+* [Hire someone](/webdev/hire/)?
+
+## Another R package: blogdown :package:
 
 [blogdown](https://bookdown.org/yihui/blogdown/) is an alternative to hugodown. [hugodown vs blogdown](https://hugodown.r-lib.org/#compared-to-blogdown)
 
-## Hugo template development/tweaking
+## Hugo and CMS  :computer:
+
+To give a less technical interface to a Hugo website, you could use a CMS, see for instance [what Steph Locke set up in this website with Netlify CMS](https://github.com/hzi-braunschweig/serohub).
+
+## Hugo template development/tweaking :nut_and_bolt:
 
 * How _I_ started: I needed to tweak one thing in an existing theme and I googled that thing; then I had to tweak one more thing; etc. Others might have built a theme from scratch.
 
@@ -70,17 +86,3 @@ Collaborative website: even Hugo users might not know your website structure!
 
 * [Julia Evan's blog post "Switching to Hugo"](https://jvns.ca/blog/2016/10/09/switching-to-hugo/)
 
-* [Template for adding citation metadata to posts by Sébastien Rochette](https://github.com/statnmap/hugo-statnmap-theme/blob/3e2a54a9836fdd65779865e91058ba304b628336/layouts/partials/citation.html)
-
-## Hugo and CMS
-
-To give a less technical interface to a Hugo website, you could use a CMS, see for instance [what Steph Locke set up in this website with Netlify CMS](https://github.com/hzi-braunschweig/serohub).
-
-## Hugo Academic
-
-Hugo Academic has [excellent docs](https://sourcethemes.com/academic/docs/).
-
-You can build many different websites with Hugo Academic, check out [Alison Hill's work](https://ysc-rmarkdown.netlify.app/) and also [Yanina Bellini's work](https://yabellini.netlify.app/).
-The theme is very versatile, and widely used in the R community.
-
-There's a [Python CLI to import your publications](https://github.com/sourcethemes/academic-admin), featured in [the blog post "Fixing Imports to Hugo"](https://dyerlab.org/post/fixing-imports-to-hugo/)

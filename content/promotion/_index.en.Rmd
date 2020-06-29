@@ -1,11 +1,11 @@
 ---
-title: Promotion
+title: Readers
 weight: 5
 chapter: true
 slides: true
 output: hugodown::md_document
 ---
 
-# Blog promotion
+# Around readers
 
-How can you help your blog gain a readership? Write good content, and then?
+A few tips about promoting your blog & interacting with readers.
