@@ -86,3 +86,5 @@ To give a less technical interface to a Hugo website, you could use a CMS, see f
 
 * [Julia Evan's blog post "Switching to Hugo"](https://jvns.ca/blog/2016/10/09/switching-to-hugo/)
 
+* [Tim Mastny's "Intro to Hugo: The Masterchef of Layouts"](https://timmastny.rbind.io/blog/intro-hugo-blogdown-chef/)
+
