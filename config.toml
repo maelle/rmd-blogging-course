@@ -43,6 +43,11 @@ name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
 url = "/credits"
 weight = 30
 
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fa fa-certificate'></i> CC-BY Licence"
+url = "https://creativecommons.org/licenses/by/4.0/"
+weight = 40
+
 [params]
   editURL = "https://github.com/maelle/rmd-blogging-course/edit/main/content/"
   description = "Scientific Rmd Blogging"
