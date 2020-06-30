@@ -66,6 +66,14 @@ Make efforts but don't be perfectionist.
 
 ---
 
+# Setup is not fun
+
+* With helpers, setup is smoother
+
+* But in general setup = learning a new thing, hard but then you get used to it!
+
+---
+
 # Regular blogging?
 
 No you don't have to unless you call your blog "the daily blog" or so. :wink:

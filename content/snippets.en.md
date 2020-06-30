@@ -1583,7 +1583,7 @@ This is a website created to show how to create a new site, a theme, and how to 
 
 ````
 
-## hugodown post
+## hugodown post YAML
 
 ````markdown
 ---
@@ -1600,6 +1600,12 @@ tags:
   - mathjax
   - R packages
 ---
+````
+
+## hugodown post body
+
+````markdown
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)

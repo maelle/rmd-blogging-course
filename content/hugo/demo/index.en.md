@@ -4,7 +4,7 @@ menuTitle: Demo
 weight: 5
 slides: true
 output: hugodown::md_document
-rmd_hash: b8ce566e1116baf4
+rmd_hash: bd629f4e40ea7fcd
 
 ---
 
@@ -42,6 +42,8 @@ rmd_hash: b8ce566e1116baf4
 
 -   Netlify drag and drop
 
+-   add URL to config
+
 -   then something easier from the code point of view but more overwhelming!
 
 -   create empty RStudio project (with git if it's available)
@@ -61,4 +63,6 @@ rmd_hash: b8ce566e1116baf4
 -   say there will probably be other themes later. show [Hugo theme gallery](https://themes.gohugo.io/) and how I would choose themes.
 
 -   [`usethis::use_github()`](https://usethis.r-lib.org/reference/use_github.html), [`hugodown::use_netlify_toml()`](https://rdrr.io/pkg/hugodown/man/use_netlify_toml.html), go to Netlify interface.
+
+-   add URL to config
 

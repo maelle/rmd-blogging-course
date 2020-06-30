@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: 059ff466d1668ff5
+rmd_hash: 291fe790e8ae8a6f
 
 ---
 
@@ -71,6 +71,15 @@ Have fun!
 If you're worried about blogging, find a blogging buddy to read your drafts?
 
 Make efforts but don't be perfectionist.
+
+------------------------------------------------------------------------
+
+Setup is not fun
+================
+
+-   With helpers, setup is smoother
+
+-   But in general setup = learning a new thing, hard but then you get used to it!
 
 ------------------------------------------------------------------------
 

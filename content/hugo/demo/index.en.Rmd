@@ -40,6 +40,8 @@ output: hugodown::md_document
 
 - Netlify drag and drop
 
+- add URL to config
+
 - then something easier from the code point of view but more overwhelming!
 
 - create empty RStudio project (with git if it's available)
@@ -59,3 +61,5 @@ output: hugodown::md_document
 - say there will probably be other themes later. show [Hugo theme gallery](https://themes.gohugo.io/) and how I would choose themes.
 
 - `usethis::use_github()`, `hugodown::use_netlify_toml()`, go to Netlify interface.
+
+- add URL to config
