@@ -34,7 +34,7 @@ If you use another service than Google Analytics, I'd be glad to hear about your
 
 * The topic of negative feedback is mentioned in [The Ladybug podcast about Blogging](https://www.ladybug.dev/episodes/blogging-101?rq=blogging)
 
-* Twitter [soft block](https://www.urbandictionary.com/define.php?term=Soft%20Block). You can also _mute_ people.
+* Twitter [soft block](https://www.urbandictionary.com/define.php?term=Soft%20Block). You can also _mute_ accounts.
 
 * When you are wrong, don't get defensive. Thread below.
 
