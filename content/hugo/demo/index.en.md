@@ -4,7 +4,7 @@ menuTitle: Demo
 weight: 5
 slides: true
 output: hugodown::md_document
-rmd_hash: 1a79ae8eff4ecba4
+rmd_hash: b8ce566e1116baf4
 
 ---
 
@@ -30,13 +30,13 @@ rmd_hash: 1a79ae8eff4ecba4
 
 -   copy-paste from [hugodown setup vignette](https://hugodown.r-lib.org/articles/config.html)
 
--   create static/code.css from <a href="https://github.com/maelle/goodpress/blob/main/inst/css/code.css" class="uri">https://github.com/maelle/goodpress/blob/main/inst/css/code.css</a> and create layouts/partial/head\_custom.html according to <a href="https://xmin.yihui.org/about/" class="uri">https://xmin.yihui.org/about/</a> (one should read theme docs!)
+-   create [static/css/code.css](/snippets/#codecss) from and create [layouts/partial/head\_custom.html](/snippets/#head_customhtml) (one should read [theme docs](https://xmin.yihui.org/about/)!)
+
+-   for mathjax create [layouts/partial/foot\_custom.html](/snippets/#head_customhtml)
 
 -   create post in content/post/2020-06-25-cool/index.Rmd and copy-paste from snippets page. knit, preview.
 
--   add maths, citations.
-
--   for mathjax copy paste from <a href="https://xmin.yihui.org/about/" class="uri">https://xmin.yihui.org/about/</a> and say one should always read the docs!
+-   add citations.
 
 -   [`hugodown::hugo_stop()`](https://rdrr.io/pkg/hugodown/man/hugo_start.html), [`hugodown::hugo_start(render_to_disk = TRUE)`](https://rdrr.io/pkg/hugodown/man/hugo_start.html)
 
@@ -48,17 +48,17 @@ rmd_hash: 1a79ae8eff4ecba4
 
 -   [`hugodown::hugo_install('0.66.0')`](https://rdrr.io/pkg/hugodown/man/hugo_install.html)
 
--   [`hugodown::create_site_academic()`](https://rdrr.io/pkg/hugodown/man/create_site_academic.html). Be happy to see everythin happening automatically :sparkles:
+-   [`hugodown::create_site_academic()`](https://rdrr.io/pkg/hugodown/man/create_site_academic.html). Be happy to see everything happening automatically :sparkles:
 
 -   [`hugodown::hugo_start(render_to_disk = TRUE)`](https://rdrr.io/pkg/hugodown/man/hugo_start.html), open localhost in the browser.
 
 -   Change site title and [theme](https://sourcethemes.com/academic/themes/) in config/\_default/params.toml. Yes a theme for a theme!
 
--   Mention academic docs, all the things one can change.
+-   Mention [academic docs](https://sourcethemes.com/academic/), all the things one can change.
 
 -   [`hugodown::use_post("post/new-rmd-post")`](https://rdrr.io/pkg/hugodown/man/use_post.html), knit, see post.
 
--   say there will probably be other themes later. show Hugo theme gallery and how I would choose themes.
+-   say there will probably be other themes later. show [Hugo theme gallery](https://themes.gohugo.io/) and how I would choose themes.
 
--   `use_github()`, add netlify.toml.
+-   [`usethis::use_github()`](https://usethis.r-lib.org/reference/use_github.html), [`hugodown::use_netlify_toml()`](https://rdrr.io/pkg/hugodown/man/use_netlify_toml.html), go to Netlify interface.
 

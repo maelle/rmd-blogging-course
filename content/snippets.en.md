@@ -1630,6 +1630,8 @@ hist(rnorm(10000))
 
 ## code.css
 
+Adapted from [the stylesheet of this website (for which I added contrast to the default pygments Chroma style)](https://github.com/maelle/goodpress/blob/main/inst/css/code.css)
+
 ```css
 /* Background */ .chroma {background-color: #f8f8f8; border: solid gray 1px; }
 /* Other */ .chroma .x {  }
@@ -1764,6 +1766,13 @@ pre code {
 <link rel="stylesheet" type="text/css" href="/code.css">
 ```
 
+## foot_custom.html
+
+```html
+<script src="//yihui.name/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+```
 
 ## goodpress post
 

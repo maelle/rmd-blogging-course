@@ -28,13 +28,13 @@ output: hugodown::md_document
 
 - copy-paste from [hugodown setup vignette](https://hugodown.r-lib.org/articles/config.html)
 
-- create static/code.css from https://github.com/maelle/goodpress/blob/main/inst/css/code.css and create layouts/partial/head_custom.html according to https://xmin.yihui.org/about/ (one should read theme docs!)
+- create [static/css/code.css](/snippets/#codecss) from and create [layouts/partial/head_custom.html](/snippets/#head_customhtml) (one should read [theme docs](https://xmin.yihui.org/about/)!)
+
+- for mathjax create [layouts/partial/foot_custom.html](/snippets/#head_customhtml)
 
 - create post in content/post/2020-06-25-cool/index.Rmd and copy-paste from snippets page. knit, preview.
 
-- add maths, citations.
-
-- for mathjax copy paste from https://xmin.yihui.org/about/ and say one should always read the docs!
+- add citations.
 
 - `hugodown::hugo_stop()`, `hugodown::hugo_start(render_to_disk = TRUE)`
 
@@ -46,16 +46,16 @@ output: hugodown::md_document
 
 - `hugodown::hugo_install('0.66.0')`
 
-- `hugodown::create_site_academic()`. Be happy to see everythin happening automatically :sparkles:
+- `hugodown::create_site_academic()`. Be happy to see everything happening automatically :sparkles:
 
 - `hugodown::hugo_start(render_to_disk = TRUE)`, open localhost in the browser.
 
 - Change site title and [theme](https://sourcethemes.com/academic/themes/) in config/_default/params.toml. Yes a theme for a theme!
 
-- Mention academic docs, all the things one can change.
+- Mention [academic docs](https://sourcethemes.com/academic/), all the things one can change.
 
 - `hugodown::use_post("post/new-rmd-post")`, knit, see post.
 
-- say there will probably be other themes later. show Hugo theme gallery and how I would choose themes.
+- say there will probably be other themes later. show [Hugo theme gallery](https://themes.gohugo.io/) and how I would choose themes.
 
-- `use_github()`, add netlify.toml.
+- `usethis::use_github()`, `hugodown::use_netlify_toml()`, go to Netlify interface.
