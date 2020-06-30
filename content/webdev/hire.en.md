@@ -1,6 +1,6 @@
 ---
 title: Not yourself?
-weight: 1
+weight: 2
 ---
 
 In the intro I mentioned that your blogging framework should be either fit in your workflow or use tools that you want to invest time in. 
