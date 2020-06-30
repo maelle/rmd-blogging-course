@@ -6,6 +6,8 @@ slides: true
 output: hugodown::md_document
 ---
 
+- show the RStudio IDE, ask whether anyone is unfamiliar with it.
+
 - install the distill package, `install.packages("distill")`
 
 - create blog (from RStudio Create New Project, not `distill::create_blog()`).

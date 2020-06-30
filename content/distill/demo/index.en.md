@@ -4,11 +4,13 @@ menuTitle: Demo
 weight: 5
 slides: true
 output: hugodown::md_document
-rmd_hash: 0d3c04ff0920674e
+rmd_hash: 56c6444412ac02ba
 
 ---
 
--   install the distill package, `install.packages("distill")`
+-   show the RStudio IDE, ask whether anyone is unfamiliar with it.
+
+-   install the distill package, [`install.packages("distill")`](https://rdrr.io/r/utils/install.packages.html)
 
 -   create blog (from RStudio Create New Project, not [`distill::create_blog()`](https://rdrr.io/pkg/distill/man/create_website.html)).
 
@@ -17,8 +19,6 @@ rmd_hash: 0d3c04ff0920674e
 -   show website in local browser.
 
 -   [`usethis::use_git()`](https://usethis.r-lib.org/reference/use_git.html)
-
--   [`usethis::use_github()`](https://usethis.r-lib.org/reference/use_github.html)
 
 -   change site but not URL, and about. change citations: true!!!
 
@@ -58,7 +58,7 @@ rmd_hash: 0d3c04ff0920674e
 
 -   mention git checkout -b and [the distill docs about blog post workflows](https://rstudio.github.io/distill/blog_workflow.html).
 
--   Other options for deployment
+-   Other options for deployment (Netlify link to repo, [distill docs](https://rstudio.github.io/distill/publish_website.html))
 
 -   add Twitter&GitHub
 
