@@ -13,7 +13,7 @@ And contribute good WordPress general resources to this repo. :wink:
 
 It's good to know how your website infrastructure evolves and works.
 
-## Follow development :eyes: and contribute to goodpress!
+## Follow development :eyes: and contribute to goodpress&pressur!
 
 I have shown all there is to [`goodpress`](https://github.com/maelle/goodpress), if you want more you might contribute 
 
@@ -22,6 +22,8 @@ I have shown all there is to [`goodpress`](https://github.com/maelle/goodpress),
 * with code and docs.
 
 I'd be glad to help you with R package development tips if you feel you're a n00b.
+
+Also follow [pressur development](https://github.com/hrbrmstr/pressur)!
 
 ## Where to get help? :wave:
 

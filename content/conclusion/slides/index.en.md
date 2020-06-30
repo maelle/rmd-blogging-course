@@ -6,7 +6,7 @@ hidden: true
 layout: list
 weight: 1
 output: hugodown::md_document
-rmd_hash: 291fe790e8ae8a6f
+rmd_hash: b777bbe39c9e64c8
 
 ---
 
@@ -77,7 +77,7 @@ Make efforts but don't be perfectionist.
 Setup is not fun
 ================
 
--   With helpers, setup is smoother
+-   With R helper packages, setup is smoother
 
 -   But in general setup = learning a new thing, hard but then you get used to it!
 
@@ -88,7 +88,7 @@ Regular blogging?
 
 No you don't have to unless you call your blog "the daily blog" or so. :wink:
 
-Only write if you enjoy it!
+Only write if you enjoy it! Your blog can be a portfolio/news board only.
 
 ------------------------------------------------------------------------
 

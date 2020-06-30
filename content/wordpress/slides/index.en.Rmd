@@ -49,21 +49,43 @@ If you use WordPress, read the docs.
 
 * `knitr::knit2wp()` is now too dated (it uses `RCurl` and `XML`)
 
-* I made a package using WordPress REST API v2!
+* I made a package using WordPress dot org API! 
 
-So your choice is between a too old tool and my WIP package. :joy: :sob:
+* Bob Rudis' package for WordPress dot com API! 
+
+So your choice is between a too old tool and WIP packages. :joy: :sob:
 
 ---
 
 # wordpress.com vs wordpress.org
 
-* Free/cheap wordpress.com: no plugin (so no API)
+* Free/cheap wordpress.com: no plugin
 
 * Business wordpress.com: $$$
 
 * Your own local server: efforts
 
 * Paid service hosting+domain name+ WordPress install: a few $ a month
+
+---
+
+# JetPack
+
+Something you can add to any WordPress website (baked in dot com websites).
+
+Free and paid features.
+
+---
+
+# Which API
+
+* wordpress dot com => .com API
+
+* self-hosted without JetPack => .org API
+
+* self-hosted with JetPack => .com API
+
+In my package, support for .org API, but .com coming.
 
 ---
 
@@ -160,7 +182,7 @@ Scientific Rmd Blog Checklist
 
 # Sustainability
 
-Created by:
+goodpress:
 
 ```{r, echo=FALSE, results="asis"}
 glue::glue_collapse(
@@ -176,13 +198,29 @@ glue::glue_collapse(
 
 [Contributors welcome](https://github.com/maelle/goodpress/).
 
+pressur:
+
+```{r, echo=FALSE, results="asis"}
+glue::glue_collapse(
+  trimws(
+      gsub(")$", "",
+  gsub("<.*>", "",
+  desc::desc_get_author(file = find.package("pressur"), role = "aut")
+  )
+  )
+  ), 
+  sep = ", ")
+```
+
+
+
 ---
 
 # Limitations?
 
 * WordPress limitations (performance? security? how to tweak a theme)
 
-* goodpress is an experimental package written by someone who doesn't know WordPress :see_no_evil:
+* The R part is promising but not stable yet
 
 ---
 

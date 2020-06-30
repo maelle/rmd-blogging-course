@@ -68,7 +68,7 @@ Make efforts but don't be perfectionist.
 
 # Setup is not fun
 
-* With helpers, setup is smoother
+* With R helper packages, setup is smoother
 
 * But in general setup = learning a new thing, hard but then you get used to it!
 
@@ -78,7 +78,7 @@ Make efforts but don't be perfectionist.
 
 No you don't have to unless you call your blog "the daily blog" or so. :wink:
 
-Only write if you enjoy it!
+Only write if you enjoy it! Your blog can be a portfolio/news board only.
 
 ---
 

@@ -7,7 +7,7 @@ layout: list
 weight: 1
 output: hugodown::md_document
 countdown: true
-rmd_hash: 58fe8c6a016bfadd
+rmd_hash: 7f271775f150fbfa
 
 ---
 
@@ -57,22 +57,46 @@ Now, Rmd and WordPress!
 
 -   [`knitr::knit2wp()`](https://rdrr.io/pkg/knitr/man/knit2wp.html) is now too dated (it uses `RCurl` and `XML`)
 
--   I made a package using WordPress REST API v2!
+-   I made a package using WordPress dot org API!
 
-So your choice is between a too old tool and my WIP package. :joy: :sob:
+-   Bob Rudis' package for WordPress dot com API!
+
+So your choice is between a too old tool and WIP packages. :joy: :sob:
 
 ------------------------------------------------------------------------
 
 wordpress.com vs wordpress.org
 ==============================
 
--   Free/cheap wordpress.com: no plugin (so no API)
+-   Free/cheap wordpress.com: no plugin
 
 -   Business wordpress.com: \$\$\$
 
 -   Your own local server: efforts
 
 -   Paid service hosting+domain name+ WordPress install: a few \$ a month
+
+------------------------------------------------------------------------
+
+JetPack
+=======
+
+Something you can add to any WordPress website (baked in dot com websites).
+
+Free and paid features.
+
+------------------------------------------------------------------------
+
+Which API
+=========
+
+-   wordpress dot com =&gt; .com API
+
+-   self-hosted without JetPack =&gt; .org API
+
+-   self-hosted with JetPack =&gt; .com API
+
+In my package, support for .org API, but .com coming.
 
 ------------------------------------------------------------------------
 
@@ -169,7 +193,7 @@ Scientific Rmd Blog Checklist
 Sustainability
 ==============
 
-Created by:
+goodpress:
 
 <div class="highlight">
 
@@ -179,6 +203,14 @@ Maëlle Salmon
 
 [Contributors welcome](https://github.com/maelle/goodpress/).
 
+pressur:
+
+<div class="highlight">
+
+Bob Rudis
+
+</div>
+
 ------------------------------------------------------------------------
 
 Limitations?
@@ -186,7 +218,7 @@ Limitations?
 
 -   WordPress limitations (performance? security? how to tweak a theme)
 
--   goodpress is an experimental package written by someone who doesn't know WordPress :see_no_evil:
+-   The R part is promising but not stable yet
 
 ------------------------------------------------------------------------
 
