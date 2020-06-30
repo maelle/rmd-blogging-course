@@ -14,7 +14,11 @@ weight: 50
 
 ## Comments
 
-* [My blog post about utteranc.es](https://masalmon.eu/2019/10/02/disqus/)
+* [My blog post about utteranc.es](https://masalmon.eu/2019/10/02/disqus/) (which means you need to use GitHub...)
+
+* [Schnack, a simple Disqus-like drop-in commenting system written in JavaScript.](https://github.com/schn4ck/schnack) read about [in a post of Noam Ross'](https://www.noamross.net/2019/08/09/a-new-website/)
+
+* In WordPress, built-in.
 
 ## Citations
 
