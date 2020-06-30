@@ -18,7 +18,10 @@ weight: 50
 
 * [Schnack, a simple Disqus-like drop-in commenting system written in JavaScript.](https://github.com/schn4ck/schnack) read about [in a post of Noam Ross'](https://www.noamross.net/2019/08/09/a-new-website/)
 
+* Not very recent but useful [ Blog comment systems: Disqus alternatives](https://fedidat.com/530-blog-comments/)
+
 * In WordPress, built-in.
+
 
 ## Citations
 
