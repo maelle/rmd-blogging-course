@@ -43,8 +43,16 @@ Collaborative website: even Hugo users might not know your website structure!
 
 Hugo Academic has [excellent docs](https://sourcethemes.com/academic/docs/).
 
-You can build many different websites with Hugo Academic, check out [Alison Hill's work](https://ysc-rmarkdown.netlify.app/) and also [Yanina Bellini's work](https://yabellini.netlify.app/).
+You can build many different websites with Hugo Academic, see a few examples below.
 The theme is very versatile, and widely used in the R community.
+
+| Website | Source |
+|---|---|
+|[Yanina Bellini Saibene's personal website](https://yabellini.netlify.app/)| [<i class='fab fa-fw fa-github'>](https://github.com/yabellini/SitioAcademico) |
+|[Metadocencia website](https://www.metadocencia.org/)| [<i class='fab fa-fw fa-github'>](https://github.com/MetaDocencia/SitioWeb) |
+|[Personal website of Alison Presmanes Hill ](https://alison.rbind.io/)| [<i class='fab fa-fw fa-github'>](https://github.com/rbind/apreshill) |
+|["Communicating with R Markdown" workshop by Alison Hill](https://ysc-rmarkdown.netlify.app/)| [<i class='fab fa-fw fa-github'>](https://github.com/rstudio-education/communicate-rmd-workshop) |
+
 
 There's a [Python CLI to import your publications](https://github.com/sourcethemes/academic-admin), featured in [the blog post "Fixing Imports to Hugo"](https://dyerlab.org/post/fixing-imports-to-hugo/)
 
